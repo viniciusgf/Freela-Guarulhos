@@ -1,0 +1,310 @@
+.icon {
+    background: url("../images/spritesheet.png") no-repeat;
+    display: inline-block;
+
+    @include transition(all 0.3s);
+
+    @keyframes loading {
+        to {
+            width: 150px;
+        }
+    }
+
+    &-phone{
+        width: 23px;
+        height: 23px;
+        background-position: -204px -152px;
+        position: relative;
+        top: .6rem;
+        right: .5rem;
+    }
+
+    &-mail{
+        width: 23px;
+        height: 23px;
+        background-position: -222px -2px;
+        position: relative;
+        top: .6rem;
+        right: .5rem;
+    }
+
+    &-cart {
+        background-position: -1px -152px;
+        width: 23px;
+        height: 23px;
+        position:relative;
+        top: .6rem;
+        left: .5rem;
+    }
+
+    &-medal{
+        width: 38px;
+        height: 32px;
+        background-position: -221px -37px;
+        position: relative;
+        top: .9rem;
+    }
+
+    &-arrow-l{
+        width: 25px;
+        height: 25px;
+        background-position: -35px -1px;
+    }
+
+    &-arrow-r{
+        width: 25px;
+        height: 25px;
+        background-position: -0 -1px;
+    }
+
+    &-quotation{
+        width: 103px;
+        height: 100px;
+        background-position: -269px 0;
+    }
+
+    &-facebook{
+        width: 29px;
+        height: 29px;
+        background-position: -202px -187px;
+        position:relative;
+        top: .6rem;
+    }
+
+    &-skype{
+        width: 29px;
+        height: 29px;
+        background-position: 0 -110px;
+        position:relative;
+        top: .6rem;
+    }
+
+    &-whatsapp{
+        width: 29px;
+        height: 29px;
+        background-position: -221px -110px;
+        position:relative;
+        top: .6rem;
+    }
+
+    &-more{
+        width: 18px;
+        height: 19px;
+        background-position: -39px -38px;
+        position: relative;
+        top: .5rem;
+        left: .4rem;
+    }
+
+    &-add-prod{
+        width: 25px;
+        height: 25px;
+        background-position: 0 -188px;
+        position: relative;
+        top: .5rem;
+    }
+
+    &-map-marker{
+        width: 19px;
+        height: 23px;
+        background-position: -5px -39px;
+        position: relative;
+        top: .2rem;
+        margin-right: 1%;
+    }
+
+    &-map-marker-o{
+        width: 27px;
+        height: 33px;
+        background-position: -133px -194px;
+        position: relative;
+        top: 1.2rem;
+        margin-right: 1%;
+    }
+
+    &-close{
+        width: 63px;
+        height: 61px;
+        background-position: -35px -150px
+    }
+    
+    &-call{
+        width: 134px;
+        height: 134px;
+        background-position: -71px -4px;
+
+    }
+
+    &-degrau{
+        width: 84px;
+        height: 29px;
+        background-position:-108px -150px;
+    }
+
+    &-box{
+        width: 16px;
+        height: 16px;
+        background-position:-271px -111px;
+        position: relative;
+        top: .3rem;
+    }
+
+
+    &-loading {
+        width: 0;
+        height: 18px;
+        background-position: -112px -249px;
+        animation: loading 2s alternate infinite;
+        @include transition(all .4s);
+    }
+
+    &-bd {
+        background-position: -12px -238px;
+        width: 95px;
+        height: 36px;
+    }
+
+    &-tel {
+        background-position: -29px -68px;
+        width: 31px;
+        height: 31px;
+    }
+
+    
+
+    &-del {
+        background-position: -120px -73px;
+        width: 13px;
+        height: 19px;
+    }
+
+    
+
+    &-lock {
+        background-position: -159px -46px;
+        width: 13px;
+        height: 17px;
+    }
+
+    &-desconto {
+        background-position: -266px -17px;
+        width: 23px;
+        height: 23px;
+    }
+
+    &-cc {
+        background-position: -261px -49px;
+        width: 37px;
+        height: 23px;
+    }
+
+    &-truck {
+        background-position: -261px -78px;
+        width: 38px;
+        height: 30px;
+    }
+
+    &-televendas {
+        background-position: -265px -113px;
+        width: 30px;
+        height: 31px;
+    }
+
+    &-ssl {
+        background-position: -19px -145px;
+        width: 57px;
+        height: 57px;
+    }
+
+    &-dne {
+        background-position: -76px -109px;
+        width: 169px;
+        height: 30px;
+    }
+
+    &-visa {
+        background-position: -93px -157px;
+        width: 33px;
+        height: 33px;
+    }
+
+    &-mastercard {
+        background-position: -138px -157px;
+        width: 33px;
+        height: 33px;
+    }
+
+    &-maestro {
+        background-position: -183px -157px;
+        width: 33px;
+        height: 33px;
+    }
+
+    &-elo {
+        background-position: -228px -157px;
+        width: 33px;
+        height: 33px;
+    }
+
+    &-dinners-club {
+        background-position: -273px -157px;
+        width: 33px;
+        height: 33px;
+    }
+
+    &-american-express {
+        background-position: -93px -198px;
+        width: 33px;
+        height: 33px;
+    }
+
+    &-convenio {
+        background-position: -138px -198px;
+        width: 33px;
+        height: 33px;
+    }
+
+    &-boleto {
+        background-position: -180px -198px;
+        width: 33px;
+        height: 33px;
+    }
+
+    &-dinheiro {
+        background-position: -225px -198px;
+        width: 33px;
+        height: 33px;
+    }
+}
+
+
+
+
+.call{
+    position: fixed;
+    bottom: 1rem;
+    right: 0;
+}
+/* HOVER */
+.actions-product, .call{
+    
+    i{
+        &:hover{
+            -webkit-filter: contrast(85%); /* Safari */
+            filter: contrast(85%);
+        }
+    }
+}
+
+.social{
+    i{
+        &:hover{    
+        transform: rotate(0deg) scale(1.05) skew(0deg) translate(0px);
+        -webkit-transform: rotate(0deg) scale(1.05) skew(0deg) translate(0px);
+        -moz-transform: rotate(0deg) scale(1.05) skew(0deg) translate(0px);
+        -o-transform: rotate(0deg) scale(1.05) skew(0deg) translate(0px);
+        -ms-transform: rotate(0deg) scale(1.05) skew(0deg) translate(0px);
+        box-shadow: 2px 2px 2px #00000080;
+        }
+    }
+}

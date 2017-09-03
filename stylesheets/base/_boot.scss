@@ -1,0 +1,51 @@
+
+*, *:before, *:after {
+	padding: 0;
+	margin: 0;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body{
+	font-family: 'Avenir Next LT Pro', sans-serif !important;
+}
+
+ul {list-style: none;}
+
+a{
+	cursor: pointer;
+	&:focus{
+		color: #354244!important;
+		text-decoration: none!important;
+	}
+}
+
+.container{
+	max-width:1240px!important;
+	width:100%!important;
+}
+
+.text-bold{font-weight:bold}
+.text-normal{font-weight:normal}
+.clear{clear: both;}
+.no-bg{background-image: none !important; background: none }
+.no-padding{padding:0px!important}
+.no-margin{margin: 0!important}
+.no-border{border:none}
+
+.menu{
+	background:yellow;
+	padding: 10px;
+
+	ul{
+		background: #000;
+		padding: 10px;
+		li{
+			background: red; 
+			display: inline-block;
+		}
+	}
+}
+
