@@ -11,7 +11,7 @@
 <body>
 	<header id="header">
 		<div class="container">
-			<div class="row">
+			<div class="row top-label">
 				<div class="col-lg-3 logo">
 					<a href="index.php">
 						<img class="img-responsive" src="../images/logo.png" alt="IPREF Guarulhos" title="IPREF Guarulhos" />
@@ -46,10 +46,11 @@
 			<!-- menu nav -->
 			<nav>
 				<ul>
-				<li class="col-md-1"><a>HOME</a></li>
-					<li class="col-md-1 dropdown">
+				<li><a>HOME</a></li>
+					<li class="dropdown">
 						<a id="menu-dropdown" href="../Html/sobre.php">
 							O IPREF
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
 						</a>
 						<div class="dropdown-content">
 							<a href="#">Link 1</a>
@@ -57,16 +58,16 @@
 							<a href="http://google.com">Link 3</a>
 						</div>
 					</li>
-					<li class="col-md-1"><a>TESTE</a></li>
-					<li class="col-md-1"><a>TESTE</a></li>
-					<li class="col-md-1"><a>TESTE</a></li>
-					<li class="col-md-1"><a>TESTE</a></li>
-					<li class="col-md-1"><a>TESTE</a></li>
-					<li class="col-md-1"><a>TESTE</a></li>
-					<li class="col-md-1"><a>TESTE</a></li>
-					<li class="col-md-1"><a>TESTE</a></li>
-					<li class="col-md-1"><a>TESTE</a></li>
-					<li class="col-md-1"><a>TESTE</a></li>
+					<li><a>PREVIDÊNCIA</a></li>
+					<li><a>SAÚDE</a></li>
+					<li><a>NOTÍCIAS</a></li>
+					<li><a>FAQ</a></li>
+					<li><a>TRANSPARÊNCIA</a></li>
+					<li><a>LINKS</a></li>
+					<li><a>CONTATO</a></li>
+					<li><a>HOLERITES</a></li>
+					<li><a>PORTAL WEB</a></li>
+					<li><a>REDE CREDENCIADA</a></li>
 				</ul>
 
 			</nav>
