@@ -19,14 +19,14 @@
 				</div>
 				<div class="col-lg-3 busca">
 					<div class="center-block align-busca">
-						<i class="fa fa-search" aria-hidden="true"></i>
+						<i class="icon icon-busca" aria-hidden="true"></i>
 						<input class="form-control" type="search" value="" placeholder="o que você procura?" id="busca-header">
 					</div>
 				</div>
 
 				<div class="col-lg-3 btn-header">
 					<div class="bg-btn-header btn-saude">
-						<img class="btn-icon" src="../images/icon-saude.jpg">
+						<i class="icon icon-saude"></i>
 						<div class="btn-text">
 							<h2>SAÚDE</h2>
 							<p>Lorem ipsum dolor sit amet, peasdasdr asmassa jueo. </p>
@@ -35,9 +35,9 @@
 				</div>
 				<div class="col-lg-3 btn-header">
 					<div class="bg-btn-header btn-previdencia">
-						<img class="btn-icon" src="../images/icon-previdencia.jpg">
+						<i class="icon icon-previdencia"></i>
 						<div class="btn-text">
-							<h2>PREVIÊNCIA</h2>
+							<h2>PREVIDÊNCIA</h2>
 							<p>Lorem ipsum dolor sit amet, peasdasdr asmassa jueo. </p>
 						</div>
 					</div>

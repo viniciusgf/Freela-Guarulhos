@@ -248,31 +248,31 @@ a {
         box-shadow: none; }
       #header .top-label .busca .align-busca {
         width: 80%; }
-    #header .top-label .btn-header .btn-saude {
+    #header .top-label .btn-header .btn-saude, #header .top-label .btn-header #footer .bg-footer .btn-footer .btn-email-footer, #footer .bg-footer .btn-footer #header .top-label .btn-header .btn-email-footer {
       background-color: #009fe3; }
     #header .top-label .btn-header .btn-previdencia {
       background-color: #212d4a; }
-    #header .top-label .btn-header .bg-btn-header {
+    #header .top-label .btn-header .bg-btn-header, #header .top-label .btn-header #footer .bg-footer .btn-footer .bg-btn-footer, #footer .bg-footer .btn-footer #header .top-label .btn-header .bg-btn-footer {
       display: inline-block;
       width: auto;
       padding: 20px 10px;
       border-bottom-left-radius: 25px;
       border-top-right-radius: 25px; }
-      #header .top-label .btn-header .bg-btn-header .btn-text {
+      #header .top-label .btn-header .bg-btn-header .btn-text, #header .top-label .btn-header #footer .bg-footer .btn-footer .bg-btn-footer .btn-text, #footer .bg-footer .btn-footer #header .top-label .btn-header .bg-btn-footer .btn-text {
         display: inline-block;
         float: right;
         width: 70%;
         color: #FFF; }
-        #header .top-label .btn-header .bg-btn-header .btn-text h2 {
+        #header .top-label .btn-header .bg-btn-header .btn-text h2, #header .top-label .btn-header #footer .bg-footer .btn-footer .bg-btn-footer .btn-text h2, #footer .bg-footer .btn-footer #header .top-label .btn-header .bg-btn-footer .btn-text h2 {
           margin-top: 0px;
           margin-bottom: 5px; }
-          #header .top-label .btn-header .bg-btn-header .btn-text h2 font {
+          #header .top-label .btn-header .bg-btn-header .btn-text h2 font, #header .top-label .btn-header #footer .bg-footer .btn-footer .bg-btn-footer .btn-text h2 font, #footer .bg-footer .btn-footer #header .top-label .btn-header .bg-btn-footer .btn-text h2 font {
             weight: bold;
             size: 18px; }
-        #header .top-label .btn-header .bg-btn-header .btn-text p font {
+        #header .top-label .btn-header .bg-btn-header .btn-text p font, #header .top-label .btn-header #footer .bg-footer .btn-footer .bg-btn-footer .btn-text p font, #footer .bg-footer .btn-footer #header .top-label .btn-header .bg-btn-footer .btn-text p font {
           size: 12px;
           style: italic; }
-      #header .top-label .btn-header .bg-btn-header .btn-icon {
+      #header .top-label .btn-header .bg-btn-header .btn-icon, #header .top-label .btn-header #footer .bg-footer .btn-footer .bg-btn-footer .btn-icon, #footer .bg-footer .btn-footer #header .top-label .btn-header .bg-btn-footer .btn-icon {
         display: inline;
         float: left; }
   #header ul li {
@@ -301,6 +301,31 @@ a {
     border: none;
     background-color: #FFF; }
 
+#footer .bg-footer {
+  background: #222d4b;
+  border-top-left-radius: 20px;
+  padding: 10px 50px; }
+  #footer .bg-footer p, #footer .bg-footer a {
+    color: #fff;
+    margin: 0; }
+    #footer .bg-footer p:hover, #footer .bg-footer a:hover {
+      text-decoration: none; }
+  #footer .bg-footer .map-site h2 {
+    color: #FFF;
+    font-size: 15px; }
+    #footer .bg-footer .map-site h2::after {
+      content: "";
+      background: #01ffff;
+      width: 85px;
+      height: 3px;
+      position: absolute;
+      left: 0;
+      display: block;
+      top: 45px; }
+    #footer .bg-footer .map-site h2 span {
+      font-weight: bold;
+      color: #01ffff; }
+
 .icon {
   background: url("../images/spritesheet.png") no-repeat;
   display: inline-block;
@@ -310,6 +335,21 @@ a {
 @keyframes loading {
   to {
     width: 150px; } }
+  .icon-busca {
+    width: 25px;
+    height: 25px;
+    background-position: -6px -6px;
+    position: relative; }
+  .icon-saude {
+    width: 61px;
+    height: 49px;
+    background-position: -46px -6px;
+    position: relative; }
+  .icon-previdencia {
+    width: 64px;
+    height: 50px;
+    background-position: -123px -6px;
+    position: relative; }
   .icon-phone {
     width: 23px;
     height: 23px;
@@ -496,24 +536,5 @@ a {
     background-position: -225px -198px;
     width: 33px;
     height: 33px; }
-
-.call {
-  position: fixed;
-  bottom: 1rem;
-  right: 0; }
-
-/* HOVER */
-.actions-product i:hover, .call i:hover {
-  -webkit-filter: contrast(85%);
-  /* Safari */
-  filter: contrast(85%); }
-
-.social i:hover {
-  transform: rotate(0deg) scale(1.05) skew(0deg) translate(0px);
-  -webkit-transform: rotate(0deg) scale(1.05) skew(0deg) translate(0px);
-  -moz-transform: rotate(0deg) scale(1.05) skew(0deg) translate(0px);
-  -o-transform: rotate(0deg) scale(1.05) skew(0deg) translate(0px);
-  -ms-transform: rotate(0deg) scale(1.05) skew(0deg) translate(0px);
-  box-shadow: 2px 2px 2px #00000080; }
 
 /*# sourceMappingURL=aplication.css.map */

@@ -10,6 +10,27 @@
         }
     }
 
+    &-busca{
+        width: 25px;
+    height: 25px;
+    background-position: -6px -6px;
+    position: relative;
+    }
+
+    &-saude{
+           width: 61px;
+    height: 49px;
+    background-position:-46px -6px;
+    position: relative; 
+    }
+
+     &-previdencia{
+           width: 64px;
+    height: 50px;
+    background-position:-123px -6px;
+    position: relative; 
+    }
+
     &-phone{
         width: 23px;
         height: 23px;
@@ -280,31 +301,3 @@
 
 
 
-.call{
-    position: fixed;
-    bottom: 1rem;
-    right: 0;
-}
-/* HOVER */
-.actions-product, .call{
-    
-    i{
-        &:hover{
-            -webkit-filter: contrast(85%); /* Safari */
-            filter: contrast(85%);
-        }
-    }
-}
-
-.social{
-    i{
-        &:hover{    
-        transform: rotate(0deg) scale(1.05) skew(0deg) translate(0px);
-        -webkit-transform: rotate(0deg) scale(1.05) skew(0deg) translate(0px);
-        -moz-transform: rotate(0deg) scale(1.05) skew(0deg) translate(0px);
-        -o-transform: rotate(0deg) scale(1.05) skew(0deg) translate(0px);
-        -ms-transform: rotate(0deg) scale(1.05) skew(0deg) translate(0px);
-        box-shadow: 2px 2px 2px #00000080;
-        }
-    }
-}
