@@ -26,8 +26,19 @@
 							PRESTAÇÃO <span>DE SERVIÇOS</span>
 						</h2>
 					</div>
-					<div class="col-lg-4 map-site"></div>
-					<div class="col-lg-4"></div>
+					<div class="col-lg-4 map-site">
+						<h2>
+						INSTITUCIONAL
+						</h2>
+						- Área do Credenciado
+						- Ára do Beneficiário
+					</div>
+					<div class="col-lg-4">
+						<p>
+							IPREF - Instituto de Previdência dos Funcionários
+							Públicos Municipais de Guarulhos.
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
