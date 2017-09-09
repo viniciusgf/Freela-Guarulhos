@@ -1,0 +1,50 @@
+
+#footer {
+	.bg-footer {
+		background: #222d4b;
+		border-top-left-radius: 20px;
+		padding: 10px 50px;
+
+		p, a {
+			color: #fff;
+			margin: 0;
+
+			&:hover {
+				text-decoration:none;
+			}
+		}
+
+		.btn-footer {
+			.btn-email-footer {
+				@extend .btn-saude;
+			}
+			.bg-btn-footer {
+				@extend .bg-btn-header;
+			}
+
+		}
+
+		.map-site {
+			h2 {
+				color: #FFF;
+				font-size: 15px;
+				
+				&::after {
+					content: "";
+				    background: #01ffff;
+				    width: 85px;
+				    height: 3px;
+				    position: absolute;
+				    left: 0;
+				    display: block;
+				    top: 45px;
+				}
+
+				span {
+					font-weight: bold;
+					color: #01ffff;
+				}
+			}
+		}
+	}
+}
