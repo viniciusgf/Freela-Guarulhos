@@ -6,6 +6,7 @@
 			margin: 0;
 			font-size: 16px;
 
+
 			&:hover {
 				text-decoration:none;
 			}
@@ -16,6 +17,8 @@
 			font-size: 16px;
 			font-weight: normal;
 		}
+
+
 	}
 	.map-site {
 		p, a {
@@ -48,5 +51,15 @@
 		background: #222d4b;
 		border-top-left-radius: 20px;
 		padding: 10px 50px;
+	}
+
+	.address-footer {
+		p {
+				margin: 12px 0 !important;
+		}
+		a {
+			display: inline-block;
+			font-size: 13px;
+		}
 	}
 }

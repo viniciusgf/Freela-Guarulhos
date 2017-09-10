@@ -102,18 +102,20 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-lg-4 text-footer map-site">
+				<div class="col-lg-4 text-footer map-site address-footer">
 					<h2>
 						IPREF - Instituto de Previdência dos Funcionários
 						Públicos Municipais de Guarulhos.
 					</h2>
 					<p>
+						<i class="icon icon-map-cordinate"></i>
 						<a href="#">
 							Rua do Rosário, 226 - Vila Camargos<br>
 							Guarulhos - São Paulo - 07111-080
 						</a>
 					</p>
 					<p>
+						<i class="icon icon-facebook-footer"></i>
 						<a href="#">
 							siga a gente no facebook!
 						</a>
