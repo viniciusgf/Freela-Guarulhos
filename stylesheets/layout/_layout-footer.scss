@@ -55,11 +55,24 @@
 
 	.address-footer {
 		p {
-				margin: 12px 0 !important;
+			margin: 12px 0 !important;
 		}
 		a {
 			display: inline-block;
 			font-size: 13px;
 		}
+	}
+
+	.copyright {
+		color: #FFF;
+		border-top: 1px solid #253353;
+		padding-top: 10px;
+		margin-top: 20px;
+
+	}
+
+	.btn-webmail-footer {
+		position: relative !important;
+		top: -50px !important;
 	}
 }
