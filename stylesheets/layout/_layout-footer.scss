@@ -39,13 +39,15 @@
 		border-top-left-radius: 20px;
 		padding: 10px 50px;
 
-		p, a {
-			color: #fff;
-			margin: 0;
-			font-size: 18px;
+		.text-footer{
+			p, a {
+				color: #fff;
+				margin: 0;
+				font-size: 18px;
 
-			&:hover {
-				text-decoration:none;
+				&:hover {
+					text-decoration:none;
+				}
 			}
 		}
 	}

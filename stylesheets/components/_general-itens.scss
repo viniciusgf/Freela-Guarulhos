@@ -1,5 +1,5 @@
-.btn-header {
-  .btn-saude {
+.btn-header, .btn-footer {
+  .btn-blue-light {
     background-color: #009fe3;
     @include transition(all 0.3s);
 
@@ -7,14 +7,14 @@
       background-color: darken(#009fe3,5%);
     }
   }
-  .btn-previdencia{
+  .btn-blue-dark{
     background-color: #212d4a;
 
     &:hover{
       background-color: darken(#212d4a,5%);
     }
   }
-  .bg-btn-header {
+  .bg-btn-radius {
     display: inline-block;
     width: auto;
     padding: 15px 25px 10px 25px;

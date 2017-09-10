@@ -11,13 +11,14 @@
 						</p>
 					</div>
 					<div class="col-lg-3 btn-footer">
-						
-						<img class="btn-icon" src="../images/icon-saude.jpg">
-						<div>
-							<h2>ACESSO AO WEBMAIL</h2>
+					<a href="" class="bg-btn-radius btn-blue-light">
+						<i class="icon icon-saude"></i>
+						<div class="btn-text">
+							<h2>SAÚDE</h2>
+							<p>Lorem ipsum dolor sit amet, peasdasdr asmassa jueo. </p>
 						</div>
-						
-					</div>
+					</a>
+				</div>
 				</div> 
 
 				<div class="row">

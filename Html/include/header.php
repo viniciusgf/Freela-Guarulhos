@@ -25,7 +25,7 @@
 				</div>
 
 				<div class="col-lg-3 btn-header">
-					<a href="" class="bg-btn-header btn-saude">
+					<a href="" class="bg-btn-radius btn-blue-light">
 						<i class="icon icon-saude"></i>
 						<div class="btn-text">
 							<h2>SAÚDE</h2>
@@ -34,7 +34,7 @@
 					</a>
 				</div>
 				<div class="col-lg-3 btn-header">
-					<a href="" class="bg-btn-header btn-previdencia">
+					<a href="" class="bg-btn-radius btn-blue-dark">
 						<i class="icon icon-previdencia"></i>
 						<div class="btn-text">
 							<h2>PREVIDÊNCIA</h2>
