@@ -63,6 +63,11 @@
 		}
 	}
 
+	.btn-footer {
+		position: relative !important;
+		top: -50px !important;
+	}
+
 	.copyright {
 		color: #FFF;
 		border-top: 1px solid #253353;
@@ -71,8 +76,5 @@
 
 	}
 
-	.btn-webmail-footer {
-		position: relative !important;
-		top: -50px !important;
-	}
+	
 }

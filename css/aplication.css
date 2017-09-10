@@ -434,6 +434,14 @@ a {
 #footer .address-footer a {
   display: inline-block;
   font-size: 13px; }
+#footer .btn-footer {
+  position: relative !important;
+  top: -50px !important; }
+#footer .copyright {
+  color: #FFF;
+  border-top: 1px solid #253353;
+  padding-top: 10px;
+  margin-top: 20px; }
 
 .icon {
   background: url("../images/spritesheet.png") no-repeat;
@@ -504,6 +512,11 @@ a {
     background-position: -322px -4px;
     position: relative;
     top: 3px; }
+  .icon-webmail-footer {
+    background-position: -6px -72px;
+    width: 64px;
+    height: 55px;
+    position: relative; }
 
 .btn-header .btn-blue-light, .btn-footer .btn-blue-light {
   background-color: #009fe3;
