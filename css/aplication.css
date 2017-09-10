@@ -689,5 +689,30 @@ a {
     overflow-y: scroll; }
     #infos .info-content .downloads ul li {
       margin-bottom: 30px; }
+#infos .info-content .eventos ul {
+  margin-top: 20px; }
+  #infos .info-content .eventos ul li {
+    border-bottom: 1px solid #edf4f4;
+    padding: 20px 0; }
+    #infos .info-content .eventos ul li:last-child {
+      border-bottom: none; }
+    #infos .info-content .eventos ul li a {
+      color: #212d4a;
+      font-size: 13px; }
+#infos .info-content .plano-saude h2 {
+  color: #212d4a;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase; }
+  #infos .info-content .plano-saude h2:after {
+    margin-top: 10px;
+    content: "";
+    background: #01ffff;
+    width: 140px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    display: block; }
 
 /*# sourceMappingURL=aplication.css.map */

@@ -152,34 +152,75 @@ include "include/header.php";
 								<p>10/11/2017</p>
 							</div>
 						</li>
-						<li>
-							<div class="pdf">
-								<a href="">
-									<i class="icon icon-download"></i>
-									PDF LICITAÇÃO
-								</a>
-							</div>
-							<div class="date">
-								<p>10/11/2017</p>
-							</div>
-						</li>
+
 					</ul>
 				</div>
 				
 			</div>
+			<div class="col-lg-3 info-content">
+				<div class="title-info">
+					<h2>Próximos <span>eventos</span></h2>
+				</div>
+
+				<div class="eventos">
+					<ul>
+						<li>
+							<a href="">
+								<b>4/02/2017 -</b> IRRF: O Informe de 
+								Rendimentos de aposentados e pensionistas 
+								do IPREF já está disponível para retirada na 
+								entidade. sobre 
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<b>4/02/2017 -</b> IRRF: O Informe de 
+								Rendimentos de aposentados e pensionistas 
+								do IPREF já está disponível para retirada na 
+								entidade. sobre 
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<b>4/02/2017 -</b> IRRF: O Informe de 
+								Rendimentos de aposentados e pensionistas 
+								do IPREF já está disponível para retirada na 
+								entidade. sobre 
+							</a>
+						</li>
+					</ul>
+				</ul>
+			</div>
 		</div>
-	</div>
-</section>
 
-<!-- FOOTER -->
-<?php 
-include "include/footer.php";
-?>
+		<div class="col-lg-3 col-lg-offset-1 info-content">
+			<div class="plano-saude">
+				<img class="img-responsive" src="../images/img-saude.png" />
+				<h2>Planos de saúde ipref</h2>
 
-<!-- JS ALL PAGES -->
-<?php 
-include "include/js.php";
-?>
+				<ul>
+					<li>
+						<i class="icon icon-check">
+							Lorem ipsum dolor sit 
+							amet, consectetur adipiscing elit.
+						</li>
+					</ul>
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+
+	<!-- FOOTER -->
+	<?php 
+	include "include/footer.php";
+	?>
+
+	<!-- JS ALL PAGES -->
+	<?php 
+	include "include/js.php";
+	?>
 
 </body>
 </html>
