@@ -9,6 +9,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
+	<div class="overlay"></div>
 	<header id="header">
 		<div class="container">
 			<div class="row top-label">
@@ -81,6 +82,10 @@
 										
 									</ul>
 								</div>
+								<div class="col-lg-4 img-menu title-bar">
+									<img src="../images/img-menu.jpg">
+									
+								</div>
 							</div>
 						</div>
 					</li>
@@ -99,11 +104,11 @@
 					</li>
 					<li class="bg-menu-alt">
 						<a>
-						<i class="icon icon-pweb"></i>
+							<i class="icon icon-pweb"></i>
 							PORTAL WEB	
 						</a>
 					</li>
-					<li class="bg-menu-alt">
+					<li class="bg-menu-alt last">
 						<a>
 							<i class="icon icon-rcredenciada"></i>
 							REDE CREDENCIADA
@@ -120,3 +125,13 @@
 
 
 	</header>
+
+	<!-- <script type="text/javascript">
+
+	$(".dropdown").mouseover(function(){
+		// alert("oi");
+		$('.overlay').css('display', 'block');
+   
+});
+	
+	</script> -->
