@@ -48,20 +48,5 @@
 				text-decoration:none;
 			}
 		}
-
-		.btn-footer {
-			.btn-email-footer {
-				@extend .btn-saude;
-			}
-			.bg-btn-footer {
-				display: inline-block;
-				width: auto;
-				padding: 20px 10px;
-				border-bottom-left-radius: 25px;
-				border-top-right-radius: 25px;
-				background-color: #FFF;
-			}
-
-		}
 	}
 }

@@ -1,0 +1,49 @@
+.btn-header {
+  .btn-saude {
+    background-color: #009fe3;
+    @include transition(all 0.3s);
+
+    &:hover{
+      background-color: darken(#009fe3,5%);
+    }
+  }
+  .btn-previdencia{
+    background-color: #212d4a;
+
+    &:hover{
+      background-color: darken(#212d4a,5%);
+    }
+  }
+  .bg-btn-header {
+    display: inline-block;
+    width: auto;
+    padding: 15px 25px 10px 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+    .btn-text {
+      display: inline-block;
+      float: right;
+      width: 70%;
+      color: #FFF;
+      h2 {
+        margin-top: 0px;
+        margin-bottom: 5px;
+        font: {
+          weight: bold;
+          size: 18px;
+        }
+      }
+      p {
+        font: {
+          size: 12px;
+          style: italic;
+        }
+      }
+    }
+    .btn-icon {
+      display: inline;
+      float: left;
+    }
+  }
+}
