@@ -407,8 +407,6 @@ a {
   color: #fff;
   margin: 0;
   font-size: 16px; }
-  #footer .text-footer p:hover, #footer .text-footer a:hover {
-    text-decoration: none; }
 #footer .text-footer h2 {
   color: #FFF;
   font-size: 16px;
@@ -417,8 +415,6 @@ a {
   color: #fff;
   margin: 0;
   font-size: 12px; }
-  #footer .map-site p:hover, #footer .map-site a:hover {
-    text-decoration: none; }
 #footer .map-site ul li {
   display: inline;
   float: left;
@@ -452,6 +448,8 @@ a {
   border-top: 1px solid #253353;
   padding-top: 10px;
   margin-top: 20px; }
+  #footer .copyright a {
+    color: #FFF; }
 
 .icon {
   background: url("../images/spritesheet.png") no-repeat;
@@ -531,6 +529,18 @@ a {
     background-position: -91px -80px;
     width: 16px;
     height: 12px; }
+  .icon-tel-footer {
+    background-position: -12px -153px;
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: 1px; }
+  .icon-schedule-footer {
+    background-position: -12px -185px;
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: 3px; }
 
 .btn-header .btn-blue-light, .btn-footer .btn-blue-light {
   background-color: #009fe3;

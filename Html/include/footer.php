@@ -4,10 +4,10 @@
 			<div class="row">
 				<div class="col-lg-9 text-footer text-right">
 					<p>
-						<a href="tel:1124616363">Tel. <b>(11)2461-6363</b> <i class="icon-tel-footer"></i></a>
+						<a href="tel:1124616363">Tel. <b>(11)2461-6363</b> <i class="icon icon-tel-footer"></i></a>
 					</p>
 					<p>
-						Horário de atendimento: das <b>8h às 16:30</b>
+						<a href="#">Horário de atendimento: das <b>8h às 16:30</b> </a><i class="icon icon-schedule-footer"></i>
 					</p>
 				</div>
 				<div class="col-lg-3 btn-footer .btn-webmail-footer">

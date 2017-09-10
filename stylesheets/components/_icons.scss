@@ -7,42 +7,42 @@
     @keyframes loading {
       to {
         width: 150px;
-      }
-    }   
-
-    &-busca{
-      width: 25px;
-      height: 25px;
-      background-position: -6px -6px;
-      position: relative;
     }
+}   
 
-    &-saude{
-     width: 61px;
-     height: 49px;
-     background-position:-46px -6px;
-     position: relative; 
-   }
+&-busca{
+  width: 25px;
+  height: 25px;
+  background-position: -6px -6px;
+  position: relative;
+}
 
-   &-previdencia{
-     width: 64px;
-     height: 50px;
-     background-position:-123px -6px;
-     position: relative; 
-   }
+&-saude{
+ width: 61px;
+ height: 49px;
+ background-position:-46px -6px;
+ position: relative; 
+}
 
-   &-holerite{
-     width: 14px;
-     height: 16px;
-     background-position:-215px -7px;
-     position: relative; 
-     top: 2px;
-     right: 3px;
+&-previdencia{
+ width: 64px;
+ height: 50px;
+ background-position:-123px -6px;
+ position: relative; 
+}
+
+&-holerite{
+ width: 14px;
+ height: 16px;
+ background-position:-215px -7px;
+ position: relative; 
+ top: 2px;
+ right: 3px;
 
 
-   }
+}
 
-   &-pweb{
+&-pweb{
     width: 16px;
     height: 15px;
     background-position:-245px -8px;
@@ -51,62 +51,77 @@
     right: 3px;
 
 
-  }
+}
 
-  &-rcredenciada{
+&-rcredenciada{
     width: 19px;
     height: 19px;
     background-position:-276px -6px;
     position: relative;
     top: 4px;
     right: 3px;
-  }   
+}   
 
-  &-facebook-footer {
+&-facebook-footer {
     background-position:-49px -218px;
     width: 28px;
     height: 19px;
     top: 7px;
     position: relative;
     left: 2px;
-  }
+}
 
-  &-map-cordinate {
+&-map-cordinate {
     background-position:-46px -153px;
     width: 28px;
     height: 24px;
     top: -2px;
     position: relative;
-  }
+}
 
-  &-arrow-blue{
+&-arrow-blue{
     width: 16px;
     height: 11px;
     background-position:-223px -43px;
     position: relative;
-  }
+}
 
-  &-download{
+&-download{
     width: 19px;
     height: 19px;
     background-position: -322px -4px;
     position: relative;
     top: 3px;
-  }
+}
 
-  &-webmail-footer {
+&-webmail-footer {
     background-position:-6px -72px;
     width: 64px;
     height: 55px;
     position: relative;
-  }
+}
 
-  &-webmail-footer-arrow {
+&-webmail-footer-arrow {
     background-position: -91px -80px;
     width: 16px;
     height: 12px;;
     
-  }
+}
+
+&-tel-footer {
+    background-position: -12px -153px;
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: 1px;
+}
+&-schedule-footer {
+    background-position: -12px -185px;
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: 3px;
+}
 }
 
 

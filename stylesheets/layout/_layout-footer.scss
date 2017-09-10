@@ -5,11 +5,6 @@
 			color: #fff;
 			margin: 0;
 			font-size: 16px;
-
-
-			&:hover {
-				text-decoration:none;
-			}
 		}
 
 		h2 {
@@ -25,10 +20,6 @@
 			color: #fff;
 			margin: 0;
 			font-size: 12px;
-
-			&:hover {
-				text-decoration:none;
-			}
 		}
 
 		ul {
@@ -92,7 +83,8 @@
 		padding-top: 10px;
 		margin-top: 20px;
 
+		a {
+			color: #FFF;
+		}
 	}
-
-	
 }
