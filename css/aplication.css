@@ -530,4 +530,11 @@ a {
       font-weight: bold;
       color: #01ffff; }
 
+#slide .carousel-indicators .active {
+  background-color: #009fe3 !important;
+  border: 1px solid #009fe3; }
+#slide .carousel-indicators li {
+  background-color: #212d4a;
+  border: 1px solid #212d4a; }
+
 /*# sourceMappingURL=aplication.css.map */
