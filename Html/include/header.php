@@ -45,7 +45,7 @@
 			</div>
 			<!-- menu nav -->
 			<nav>
-				<ul>
+				<ul class="nav-menu">
 					<li><a>HOME</a></li>
 					<li class="dropdown">
 						<a id="menu-dropdown" href="../Html/sobre.php">
@@ -54,8 +54,23 @@
 						</a>
 						<div class="dropdown-content">
 							<div class="row">
-								<div class="col-lg-2 bg-blue-light no-padding title-bar">
+								<div class="col-lg-2 bg-blue-light drop no-padding title-bar">
 									<h2>Credenciados</h2>
+
+									<ul>
+										<li>
+											<a href="">Quero me credenciar</a>
+										</li>
+										<li>
+											<a href="">Faturamento</a>
+										</li>
+										<li>
+											<a href="">Manuais de utilização</a>
+										</li>
+										<li>
+											<a href="">Guia Tiss</a>
+										</li>
+									</ul>
 								</div>
 								<div class="col-lg-2 bg-blue-dark no-padding title-bar">
 									<h2>Credenciados</h2>

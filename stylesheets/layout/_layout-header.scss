@@ -34,7 +34,7 @@
 	}
 
 	/*menu-navigation*/
-	ul {
+	.nav-menu {
 		background: #fff;
 
 		.bg-menu-alt{
@@ -77,25 +77,39 @@
 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 		z-index: 1;
 
-		.col-lg-2{
+		.col-lg-2.drop{
 			width: 190px!important;
+			a{
+				padding: 10px 0;
+				color: #fff;
+				
+			}
 		}
 
 		.bg-blue-light{
-			background: #263250
+			background: #263250;
+			a{
+				background: #263250;
+				
+			}
 		}
 
 		.bg-blue-dark{
-			background: #212d4a
+			background: #212d4a;
+			a{
+				background: #212d4a;
+			}
+		}
+
+		h2{
+			font: {
+				size:16px;
+				weight: bold;
+			}
 		}
 
 		a {
-			float: none;
-			color: #212d4a;
-			padding: 12px 16px;
-			text-decoration: none;
-			display: block;
-			text-align: center;
+			
 		}
 	}
 
