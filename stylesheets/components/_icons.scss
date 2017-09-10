@@ -6,63 +6,81 @@
 
     @keyframes loading {
         to {
-            width: 150px;
-        }
-    }
+          width: 150px;
+      }
+  }   
 
-    &-busca{
-        width: 25px;
-        height: 25px;
-        background-position: -6px -6px;
-        position: relative;
-    }
+  &-busca{
+    width: 25px;
+    height: 25px;
+    background-position: -6px -6px;
+    position: relative;
+}
 
-    &-saude{
-       width: 61px;
-       height: 49px;
-       background-position:-46px -6px;
-       position: relative; 
-   }
+&-saude{
+ width: 61px;
+ height: 49px;
+ background-position:-46px -6px;
+ position: relative; 
+}
 
-   &-previdencia{
-       width: 64px;
-       height: 50px;
-       background-position:-123px -6px;
-       position: relative; 
-   }
+&-previdencia{
+ width: 64px;
+ height: 50px;
+ background-position:-123px -6px;
+ position: relative; 
+}
 
-   &-holerite{
-       width: 14px;
-       height: 16px;
-       background-position:-215px -7px;
-       position: relative; 
-       top: 2px;
-           right: 3px;
+&-holerite{
+ width: 14px;
+ height: 16px;
+ background-position:-215px -7px;
+ position: relative; 
+ top: 2px;
+ right: 3px;
 
-
-   }
-   &-pweb{
-      width: 16px;
-      height: 15px;
-      background-position:-245px -8px;
-      position: relative;
-      top: 3px;
-          right: 3px;
-
-
-  }
-  &-rcredenciada{
-      width: 19px;
-      height: 19px;
-      background-position:-276px -6px;
-      position: relative;
-      top: 4px;
-          right: 3px;
-
-
-  }
 
 }
+
+&-pweb{
+  width: 16px;
+  height: 15px;
+  background-position:-245px -8px;
+  position: relative;
+  top: 3px;
+  right: 3px;
+
+
+}
+
+&-rcredenciada{
+  width: 19px;
+  height: 19px;
+  background-position:-276px -6px;
+  position: relative;
+  top: 4px;
+  right: 3px;
+}   
+
+&-facebook-footer {
+  background-position:-49px -218px;
+  width: 28px;
+  height: 19px;
+  top: 7px;
+  position: relative;
+  left: 2px;
+}
+
+&-map-cordinate {
+  background-position:-46px -153px;
+  width: 28px;
+  height: 24px;
+  top: -2px;
+  position: relative;
+}
+}
+
+
 
 
 
