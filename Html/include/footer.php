@@ -21,37 +21,37 @@
 				</div> 
 
 				<div class="row">
-					<div class="col-lg-4 text-footer">
+					<div class="col-lg-4 title-bar text-footer">
 						<h2>
 							PRESTAÇÃO <span>DE SERVIÇOS</span>
 						</h2>
-						<ul class="text-footer">
+						<ul>
 							<li class="text-left">
-								<a href="#" class="text-footer">
+								<a href="#">
 									- Área do Credenciado
 								</a>
 							</li>
 							<li>
-								<a href="#" class="text-footer">
+								<a href="#">
 									- Ára do Beneficiário
 								</a>
 							</li>
 						</ul>
 					</div>
-					<div class="col-lg-4 text-footer">
+					<div class="col-lg-4 title-bar text-footer">
 						<h2>
 							INSTITUCIONAL
 						</h2>
 						
 
-						<ul class="text-footer">
+						<ul>
 							<li class="text-left">
-								<a href="#" class="text-footer">
+								<a href="#">
 									- Sobre o IPREF
 								</a>
 							</li>
 							<li>
-								<a href="#" class="text-footer">
+								<a href="#">
 									- Fale conosco.
 								</a>
 							</li>

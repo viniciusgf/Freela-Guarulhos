@@ -54,11 +54,11 @@
 						</a>
 						<div class="dropdown-content">
 							<div class="row">
-								<div class="col-lg-2 bg-blue-light">
-									<a>teste </a>
+								<div class="col-lg-2 bg-blue-light no-padding title-bar">
+									<h2>Credenciados</h2>
 								</div>
-								<div class="col-lg-2 bg-blue-dark">
-									<a>teste </a>
+								<div class="col-lg-2 bg-blue-dark no-padding title-bar">
+									<h2>Credenciados</h2>
 								</div>
 							</div>
 						</div>
