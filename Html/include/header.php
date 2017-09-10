@@ -46,7 +46,7 @@
 			<!-- menu nav -->
 			<nav>
 				<ul class="nav-menu">
-					<li><a>HOME</a></li>
+					<li class="first"><a>HOME</a></li>
 					<li class="dropdown">
 						<a id="menu-dropdown" href="../Html/sobre.php">
 							O IPREF
@@ -54,7 +54,7 @@
 						</a>
 						<div class="dropdown-content">
 							<div class="row">
-								<div class="col-lg-2 bg-blue-light drop no-padding title-bar">
+								<div class="col-lg-2 bg-blue-light drop title-bar">
 									<h2>Credenciados</h2>
 
 									<ul>
