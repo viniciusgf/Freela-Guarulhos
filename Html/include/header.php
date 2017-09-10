@@ -72,8 +72,14 @@
 										</li>
 									</ul>
 								</div>
-								<div class="col-lg-2 bg-blue-dark no-padding title-bar">
-									<h2>Credenciados</h2>
+								<div class="col-lg-2 bg-blue-dark title-bar">
+									<h2>Rede credenciada</h2>
+									<ul>
+										<li>
+											<a href="">Encontre aqui a rede mais próxima de você</a>
+										</li>
+										
+									</ul>
 								</div>
 							</div>
 						</div>
