@@ -25,37 +25,42 @@
 				</div>
 
 				<div class="col-lg-3 btn-header">
-					<div class="bg-btn-header btn-saude">
+					<a href="" class="bg-btn-header btn-saude">
 						<i class="icon icon-saude"></i>
 						<div class="btn-text">
 							<h2>SAÚDE</h2>
 							<p>Lorem ipsum dolor sit amet, peasdasdr asmassa jueo. </p>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="col-lg-3 btn-header">
-					<div class="bg-btn-header btn-previdencia">
+					<a href="" class="bg-btn-header btn-previdencia">
 						<i class="icon icon-previdencia"></i>
 						<div class="btn-text">
 							<h2>PREVIDÊNCIA</h2>
 							<p>Lorem ipsum dolor sit amet, peasdasdr asmassa jueo. </p>
 						</div>
-					</div>
+					</a>
 				</div>
 			</div>
 			<!-- menu nav -->
 			<nav>
 				<ul>
-				<li><a>HOME</a></li>
+					<li><a>HOME</a></li>
 					<li class="dropdown">
 						<a id="menu-dropdown" href="../Html/sobre.php">
 							O IPREF
 							<i class="fa fa-chevron-down" aria-hidden="true"></i>
 						</a>
 						<div class="dropdown-content">
-							<a href="#">Link 1</a>
-							<a href="#">Link 2</a>
-							<a href="http://google.com">Link 3</a>
+							<div class="row">
+								<div class="col-lg-2 bg-blue-light">
+									<a>teste </a>
+								</div>
+								<div class="col-lg-2 bg-blue-dark">
+									<a>teste </a>
+								</div>
+							</div>
 						</div>
 					</li>
 					<li><a>PREVIDÊNCIA</a></li>
@@ -65,9 +70,24 @@
 					<li><a>TRANSPARÊNCIA</a></li>
 					<li><a>LINKS</a></li>
 					<li><a>CONTATO</a></li>
-					<li><a>HOLERITES</a></li>
-					<li><a>PORTAL WEB</a></li>
-					<li><a>REDE CREDENCIADA</a></li>
+					<li class="bg-menu-alt">
+						<a>
+							<i class="icon icon-holerite"></i>
+							HOLERITES
+						</a>
+					</li>
+					<li class="bg-menu-alt">
+						<a>
+						<i class="icon icon-pweb"></i>
+							PORTAL WEB	
+						</a>
+					</li>
+					<li class="bg-menu-alt">
+						<a>
+							<i class="icon icon-rcredenciada"></i>
+							REDE CREDENCIADA
+						</a>
+					</li>
 				</ul>
 
 			</nav>
