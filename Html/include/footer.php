@@ -22,7 +22,7 @@
 				</div> 
 
 				<div class="row">
-					<div class="col-lg-4 title-bar text-footer">
+					<div class="col-lg-4 title-bar text-footer map-site">
 						<h2>
 							PRESTAÇÃO <span>DE SERVIÇOS</span>
 						</h2>
@@ -73,7 +73,7 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-lg-4 title-bar text-footer">
+					<div class="col-lg-4 title-bar text-footer map-site">
 						<h2>
 							INSTITUCIONAL
 						</h2>
@@ -90,9 +90,19 @@
 									- Fale conosco.
 								</a>
 							</li>
+							<li>
+								<a href="#">
+									- Onde Estamos.
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									- Mapa do Site.
+								</a>
+							</li>
 						</ul>
 					</div>
-					<div class="col-lg-4 map-site text-footer">
+					<div class="col-lg-4 text-footer">
 						<p>
 							IPREF - Instituto de Previdência dos Funcionários
 							Públicos Municipais de Guarulhos.

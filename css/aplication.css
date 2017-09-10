@@ -370,7 +370,13 @@ a {
   font-size: 16px; }
   #footer .text-footer p:hover, #footer .text-footer a:hover {
     text-decoration: none; }
-#footer .text-footer ul li {
+#footer .map-site p, #footer .map-site a {
+  color: #fff;
+  margin: 0;
+  font-size: 12px; }
+  #footer .map-site p:hover, #footer .map-site a:hover {
+    text-decoration: none; }
+#footer .map-site ul li {
   display: inline;
   float: left;
   width: 175px; }
@@ -459,20 +465,24 @@ a {
     display: inline;
     float: left; }
 
-.title-bar h2 {
-  color: #FFF;
-  font-size: 20px; }
-  .title-bar h2::after {
-    content: "";
-    background: #01ffff;
-    width: 85px;
-    height: 3px;
-    position: absolute;
-    left: 0;
-    display: block;
-    top: 45px; }
-  .title-bar h2 span {
-    font-weight: bold;
-    color: #01ffff; }
+.title-bar {
+  padding-left: 40px; }
+  .title-bar h2 {
+    color: #FFF;
+    font-size: 16px;
+    padding-bottom: 30px; }
+    .title-bar h2::after {
+      margin-top: 10px;
+      content: "";
+      background: #01ffff;
+      width: 105px;
+      height: 3px;
+      position: absolute;
+      left: 0;
+      display: block;
+      top: 45px; }
+    .title-bar h2 span {
+      font-weight: bold;
+      color: #01ffff; }
 
 /*# sourceMappingURL=aplication.css.map */
