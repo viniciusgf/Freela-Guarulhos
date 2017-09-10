@@ -200,7 +200,7 @@ include "include/header.php";
 
 				<ul>
 					<li>
-						<i class="icon icon-check">
+						<i class="icon icon-check"></i>
 							Lorem ipsum dolor sit 
 							amet, consectetur adipiscing elit.
 						</li>
