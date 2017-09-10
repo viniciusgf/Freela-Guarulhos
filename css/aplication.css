@@ -308,21 +308,6 @@ a {
   font-size: 16px; }
   #footer .text-footer a:hover {
     text-decoration: none; }
-#footer .text-footer h2 {
-  color: #FFF;
-  font-size: 20px; }
-  #footer .text-footer h2::after {
-    content: "";
-    background: #01ffff;
-    width: 85px;
-    height: 3px;
-    position: absolute;
-    left: 0;
-    display: block;
-    top: 45px; }
-  #footer .text-footer h2 span {
-    font-weight: bold;
-    color: #01ffff; }
 #footer .text-footer ul {
   display: inline; }
 #footer .bg-footer {
@@ -415,5 +400,21 @@ a {
   .btn-header .bg-btn-radius .btn-icon, .btn-footer .bg-btn-radius .btn-icon {
     display: inline;
     float: left; }
+
+.title-bar h2 {
+  color: #FFF;
+  font-size: 20px; }
+  .title-bar h2::after {
+    content: "";
+    background: #01ffff;
+    width: 85px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    display: block;
+    top: 45px; }
+  .title-bar h2 span {
+    font-weight: bold;
+    color: #01ffff; }
 
 /*# sourceMappingURL=aplication.css.map */
