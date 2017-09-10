@@ -100,12 +100,20 @@
 				display: inline-block;
 				border-bottom: 3px solid #f8fafa;
 				width: 28%;
-					text-align: center;
+				text-align: center;
 				p{
 					padding: 0!important;
 					font-size: 13px;
-					color: #212d4a
+					color: #212d4a;
+				}
+			}
 
+			ul{
+				height: 172px;
+				overflow: hidden;
+				overflow-y: scroll;
+				li{
+					margin-bottom: 30px;
 				}
 			}
 		}

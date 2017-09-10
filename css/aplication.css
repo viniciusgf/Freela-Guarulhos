@@ -669,5 +669,11 @@ a {
       padding: 0 !important;
       font-size: 13px;
       color: #212d4a; }
+  #infos .info-content .downloads ul {
+    height: 172px;
+    overflow: hidden;
+    overflow-y: scroll; }
+    #infos .info-content .downloads ul li {
+      margin-bottom: 30px; }
 
 /*# sourceMappingURL=aplication.css.map */

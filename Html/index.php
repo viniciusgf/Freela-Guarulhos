@@ -97,6 +97,72 @@ include "include/header.php";
 								<p>10/11/2017</p>
 							</div>
 						</li>
+						<li>
+							<div class="pdf">
+								<a href="">
+									<i class="icon icon-download"></i>
+									PDF LICITAÇÃO
+								</a>
+							</div>
+							<div class="date">
+								<p>10/11/2017</p>
+							</div>
+						</li>
+						<li>
+							<div class="pdf">
+								<a href="">
+									<i class="icon icon-download"></i>
+									PDF LICITAÇÃO
+								</a>
+							</div>
+							<div class="date">
+								<p>10/11/2017</p>
+							</div>
+						</li>
+						<li>
+							<div class="pdf">
+								<a href="">
+									<i class="icon icon-download"></i>
+									PDF LICITAÇÃO
+								</a>
+							</div>
+							<div class="date">
+								<p>10/11/2017</p>
+							</div>
+						</li>
+						<li>
+							<div class="pdf">
+								<a href="">
+									<i class="icon icon-download"></i>
+									PDF LICITAÇÃO
+								</a>
+							</div>
+							<div class="date">
+								<p>10/11/2017</p>
+							</div>
+						</li>
+						<li>
+							<div class="pdf">
+								<a href="">
+									<i class="icon icon-download"></i>
+									PDF LICITAÇÃO
+								</a>
+							</div>
+							<div class="date">
+								<p>10/11/2017</p>
+							</div>
+						</li>
+						<li>
+							<div class="pdf">
+								<a href="">
+									<i class="icon icon-download"></i>
+									PDF LICITAÇÃO
+								</a>
+							</div>
+							<div class="date">
+								<p>10/11/2017</p>
+							</div>
+						</li>
 					</ul>
 				</div>
 				
