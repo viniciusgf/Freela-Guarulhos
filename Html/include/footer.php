@@ -14,7 +14,8 @@
 					<a href="" class="bg-btn-radius btn-blue-light">
 						<i class="icon icon-webmail-footer"></i>
 						<div class="btn-text">
-							<h2>ACESSO AO <b>WEBMAIL</b></h2>
+							<h2><span>ACESSO AO </span><b>WEBMAIL</b> <i class="icon icon-webmail-footer-arrow"></i></h2>
+
 						</div>
 					</a>
 				</div>

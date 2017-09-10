@@ -66,6 +66,24 @@
 	.btn-footer {
 		position: relative !important;
 		top: -50px !important;
+
+		.bg-btn-radius{
+		padding: 15px 10px 10px 10px !important;
+	}
+
+		.btn-text {
+			width: 50%;
+
+			h2 {
+				font-size: 16px;
+				line-height: 18px;
+
+				span {
+					font-size: 12px;
+					display: block;
+				}
+			}
+		}
 	}
 
 	.copyright {
