@@ -370,6 +370,10 @@ a {
   font-size: 16px; }
   #footer .text-footer p:hover, #footer .text-footer a:hover {
     text-decoration: none; }
+#footer .text-footer h2 {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: normal; }
 #footer .map-site p, #footer .map-site a {
   color: #fff;
   margin: 0;
@@ -380,6 +384,8 @@ a {
   display: inline;
   float: left;
   width: 175px; }
+#footer .one-colum-map li {
+  width: 100% !important; }
 #footer .bg-footer {
   background: #222d4b;
   border-top-left-radius: 20px;
