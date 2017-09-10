@@ -232,7 +232,6 @@ a {
       display: inline-block; }
 
 #header {
-  /*fixed header teste*/
   /*menu-navigation*/
   /*dropdown button "O IPREF"*/ }
   #header .top-label {
@@ -291,6 +290,10 @@ a {
     z-index: 1; }
     #header .dropdown-content .col-lg-2 {
       width: 190px !important; }
+    #header .dropdown-content .bg-blue-light {
+      background: #263250; }
+    #header .dropdown-content .bg-blue-dark {
+      background: #212d4a; }
     #header .dropdown-content a {
       float: none;
       color: #212d4a;
