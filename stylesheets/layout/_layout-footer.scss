@@ -1,5 +1,39 @@
 
 #footer {
+	.text-footer {
+		a {
+			font-size: 16px;
+
+			&:hover {
+				text-decoration:none;
+			}
+		}
+
+		h2 {
+			color: #FFF;
+			font-size: 20px;
+
+			&::after {
+				content: "";
+				background: #01ffff;
+				width: 85px;
+				height: 3px;
+				position: absolute;
+				left: 0;
+				display: block;
+				top: 45px;
+			}
+
+			span {
+				font-weight: bold;
+				color: #01ffff;
+			}
+		}
+
+		ul {
+			display: inline;
+		}
+	}
 	.bg-footer {
 		background: #222d4b;
 		border-top-left-radius: 20px;
@@ -8,6 +42,7 @@
 		p, a {
 			color: #fff;
 			margin: 0;
+			font-size: 18px;
 
 			&:hover {
 				text-decoration:none;
@@ -19,32 +54,14 @@
 				@extend .btn-saude;
 			}
 			.bg-btn-footer {
-				@extend .bg-btn-header;
+				display: inline-block;
+				width: auto;
+				padding: 20px 10px;
+				border-bottom-left-radius: 25px;
+				border-top-right-radius: 25px;
+				background-color: #FFF;
 			}
 
-		}
-
-		.map-site {
-			h2 {
-				color: #FFF;
-				font-size: 15px;
-				
-				&::after {
-					content: "";
-					background: #01ffff;
-					width: 85px;
-					height: 3px;
-					position: absolute;
-					left: 0;
-					display: block;
-					top: 45px;
-				}
-
-				span {
-					font-weight: bold;
-					color: #01ffff;
-				}
-			}
 		}
 	}
 }

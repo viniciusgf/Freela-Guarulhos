@@ -11,29 +11,53 @@
 						</p>
 					</div>
 					<div class="col-lg-3 btn-footer">
-						<div class="bg-btn-footer btn-email-footer">
-							<img class="btn-icon" src="../images/icon-saude.jpg">
-							<div>
-								<h2>ACESSO AO WEBMAIL</h2>
-							</div>
+						
+						<img class="btn-icon" src="../images/icon-saude.jpg">
+						<div>
+							<h2>ACESSO AO WEBMAIL</h2>
 						</div>
+						
 					</div>
 				</div> 
 
 				<div class="row">
-					<div class="col-lg-4 map-site">
+					<div class="col-lg-4 text-footer">
 						<h2>
 							PRESTAÇÃO <span>DE SERVIÇOS</span>
 						</h2>
+						<ul class="text-footer">
+							<li class="text-left">
+								<a href="#" class="text-footer">
+									- Área do Credenciado
+								</a>
+							</li>
+							<li>
+								<a href="#" class="text-footer">
+									- Ára do Beneficiário
+								</a>
+							</li>
+						</ul>
 					</div>
-					<div class="col-lg-4 map-site">
+					<div class="col-lg-4 text-footer">
 						<h2>
-						INSTITUCIONAL
+							INSTITUCIONAL
 						</h2>
-						- Área do Credenciado
-						- Ára do Beneficiário
+						
+
+						<ul class="text-footer">
+							<li class="text-left">
+								<a href="#" class="text-footer">
+									- Sobre o IPREF
+								</a>
+							</li>
+							<li>
+								<a href="#" class="text-footer">
+									- Fale conosco.
+								</a>
+							</li>
+						</ul>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-4 map-site text-footer">
 						<p>
 							IPREF - Instituto de Previdência dos Funcionários
 							Públicos Municipais de Guarulhos.
@@ -42,7 +66,6 @@
 				</div>
 			</div>
 		</div>
-		
 	</footer>
 
 </body>
