@@ -1,33 +1,29 @@
 
 #footer {
-	.text-footer {
-		a {
+	.text-footer{
+		p, a {
+			color: #fff;
+			margin: 0;
 			font-size: 16px;
 
 			&:hover {
 				text-decoration:none;
 			}
 		}
-		
+
 		ul {
-			display: inline;
+
+			li {
+				display: inline;
+				float: left;
+				width: 175px;
+			}
 		}
 	}
+
 	.bg-footer {
 		background: #222d4b;
 		border-top-left-radius: 20px;
 		padding: 10px 50px;
-
-		.text-footer{
-			p, a {
-				color: #fff;
-				margin: 0;
-				font-size: 18px;
-
-				&:hover {
-					text-decoration:none;
-				}
-			}
-		}
 	}
 }
