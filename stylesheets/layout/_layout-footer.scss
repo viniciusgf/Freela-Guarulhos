@@ -10,6 +10,17 @@
 				text-decoration:none;
 			}
 		}
+	}
+	.map-site {
+		p, a {
+			color: #fff;
+			margin: 0;
+			font-size: 12px;
+
+			&:hover {
+				text-decoration:none;
+			}
+		}
 
 		ul {
 
