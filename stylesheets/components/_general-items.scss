@@ -7,6 +7,7 @@
       background-color: darken(#009fe3,5%);
     }
   }
+
   .btn-blue-dark{
     background-color: #212d4a;
 
@@ -14,6 +15,7 @@
       background-color: darken(#212d4a,5%);
     }
   }
+
   .bg-btn-radius {
     display: inline-block;
     width: auto;
@@ -75,3 +77,30 @@
     }
   }
 }
+
+.title-info{
+  h2{
+    color: #009fe3;
+    font-size: 36px;
+    text-transform: uppercase;
+        position: relative;
+    left: 20px;
+
+    &::before{
+      content:"";
+      background-color: #f7fafa;
+      width: 120px;
+      height: 70px;
+      position: absolute;
+      z-index: -1;
+      left: -20px
+    }
+
+    span{
+      display: block;
+      color: #212d4a;
+      font-weight: bold
+    }
+  }
+}
+

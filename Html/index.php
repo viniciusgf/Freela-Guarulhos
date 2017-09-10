@@ -21,21 +21,80 @@ include "include/header.php";
 					<img src="../images/slide/img-1.jpg" alt="Los Angeles">
 					<div class="content-slider">
 						<h1>
-							Planos de Saúde <b>IPREF SAÚDE</b>
-							<span>e SAÚDE PLUS.</span>
+							Planos de Saúde <b>IPREF SAÚDE
+							<span>e SAÚDE PLUS.</span></h1></b>
 						</h1>
 						<a href="">saiba mais <i class="icon icon-arrow-blue"></i></a>
 
 					</div>
 				</div>
 
-				<!-- <div class="item">
+				<div class="item">
 					<img src="../images/slide/img-1.jpg" alt="Los Angeles">
 				</div>
 
 				<div class="item">
 					<img src="../images/slide/img-1.jpg" alt="Los Angeles">
-				</div> -->
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="bg-title">
+					<h2>
+						Sobre o <br/>
+						<b>IPREF GUARARULHOS</b>
+					</h2>
+				</div>
+			</div>
+			<div class="col-lg-6 text-about">
+				<p>
+					Criado em 1983, o <b>IPREF - Instituto de Previdência dos Funcionários 
+					Públicos Municipais</b>– é uma Autarquia Municipal, com autonomia 
+					administrativa, financeira e patrimonial.
+				</p>
+				<p>
+					Todos os servidores públicos municipais titulares de cargos efetivos, 
+					ativos e inativos, dos poderes Executivo.
+				</p>
+
+				<a href="">quer saber mais?</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="infos">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 updates info-content">
+				<div class="title-info">
+					<h2>Últimas <span>atualizações</span></h2>
+				</div>
+
+				<p>
+					<b>Informações mais recentes</b> sobre 
+					licitações, editais, convocações, novos 
+					credenciamentos e demais assuntos do 
+					seu interesse.
+				</p>
+
+				<div class="downloads">
+					<ul>
+						<li>
+							<a href="">
+								<i class="icon icon-download"></i>
+								PDF LICITAÇÃO
+							</a>
+						</li>
+					</ul>
+				</div>
+				
 			</div>
 		</div>
 	</div>
