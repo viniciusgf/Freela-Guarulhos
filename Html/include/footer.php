@@ -10,12 +10,11 @@
 						Horário de atendimento: das <b>8h às 16:30</b>
 					</p>
 				</div>
-				<div class="col-lg-3 btn-footer">
+				<div class="col-lg-3 btn-footer .btn-webmail-footer">
 					<a href="" class="bg-btn-radius btn-blue-light">
-						<i class="icon icon-saude"></i>
+						<i class="icon icon-webmail-footer"></i>
 						<div class="btn-text">
-							<h2>SAÚDE</h2>
-							<p>Lorem ipsum dolor sit amet, peasdasdr asmassa jueo. </p>
+							<h2>ACESSO AO <b>WEBMAIL</b></h2>
 						</div>
 					</a>
 				</div>
@@ -122,6 +121,10 @@
 					</p>
 				</div>
 			</div>
+
+			<p class="copyright">
+				Copyright - IPREF Instituto de Previdência dos Funcionários Públicos Municipais de Guarulhos 2017 - <a href="#"> Por: Degrau Publicidade e Internet</a>
+			</p>
 		</div>
 	</div>
 </footer>
