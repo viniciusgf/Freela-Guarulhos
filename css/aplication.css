@@ -272,26 +272,26 @@ a {
       background-color: #212d4a; }
       #header .top-label .btn-header .btn-previdencia:hover {
         background-color: #192238; }
-    #header .top-label .btn-header .bg-btn-header, #header .top-label .btn-header #footer .bg-footer .btn-footer .bg-btn-footer, #footer .bg-footer .btn-footer #header .top-label .btn-header .bg-btn-footer {
+    #header .top-label .btn-header .bg-btn-header {
       display: inline-block;
       width: auto;
       padding: 15px 25px 10px 25px;
       border-bottom-left-radius: 25px;
       border-top-right-radius: 25px; }
-      #header .top-label .btn-header .bg-btn-header .btn-text, #header .top-label .btn-header #footer .bg-footer .btn-footer .bg-btn-footer .btn-text, #footer .bg-footer .btn-footer #header .top-label .btn-header .bg-btn-footer .btn-text {
+      #header .top-label .btn-header .bg-btn-header .btn-text {
         display: inline-block;
         float: right;
         width: 70%;
         color: #FFF; }
-        #header .top-label .btn-header .bg-btn-header .btn-text h2, #header .top-label .btn-header #footer .bg-footer .btn-footer .bg-btn-footer .btn-text h2, #footer .bg-footer .btn-footer #header .top-label .btn-header .bg-btn-footer .btn-text h2 {
+        #header .top-label .btn-header .bg-btn-header .btn-text h2 {
           margin-top: 0px;
           margin-bottom: 5px;
           font-weight: bold;
           font-size: 18px; }
-        #header .top-label .btn-header .bg-btn-header .btn-text p, #header .top-label .btn-header #footer .bg-footer .btn-footer .bg-btn-footer .btn-text p, #footer .bg-footer .btn-footer #header .top-label .btn-header .bg-btn-footer .btn-text p {
+        #header .top-label .btn-header .bg-btn-header .btn-text p {
           font-size: 12px;
           font-style: italic; }
-      #header .top-label .btn-header .bg-btn-header .btn-icon, #header .top-label .btn-header #footer .bg-footer .btn-footer .bg-btn-footer .btn-icon, #footer .bg-footer .btn-footer #header .top-label .btn-header .bg-btn-footer .btn-icon {
+      #header .top-label .btn-header .bg-btn-header .btn-icon {
         display: inline;
         float: left; }
   #header ul {
@@ -322,6 +322,8 @@ a {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1; }
+    #header .dropdown-content .col-lg-2 {
+      width: 190px !important; }
     #header .dropdown-content a {
       float: none;
       color: #212d4a;
@@ -335,30 +337,44 @@ a {
     border: none;
     background-color: #FFF; }
 
+#footer .text-footer a {
+  font-size: 16px; }
+  #footer .text-footer a:hover {
+    text-decoration: none; }
+#footer .text-footer h2 {
+  color: #FFF;
+  font-size: 20px; }
+  #footer .text-footer h2::after {
+    content: "";
+    background: #01ffff;
+    width: 85px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    display: block;
+    top: 45px; }
+  #footer .text-footer h2 span {
+    font-weight: bold;
+    color: #01ffff; }
+#footer .text-footer ul {
+  display: inline; }
 #footer .bg-footer {
   background: #222d4b;
   border-top-left-radius: 20px;
   padding: 10px 50px; }
   #footer .bg-footer p, #footer .bg-footer a {
     color: #fff;
-    margin: 0; }
+    margin: 0;
+    font-size: 18px; }
     #footer .bg-footer p:hover, #footer .bg-footer a:hover {
       text-decoration: none; }
-  #footer .bg-footer .map-site h2 {
-    color: #FFF;
-    font-size: 15px; }
-    #footer .bg-footer .map-site h2::after {
-      content: "";
-      background: #01ffff;
-      width: 85px;
-      height: 3px;
-      position: absolute;
-      left: 0;
-      display: block;
-      top: 45px; }
-    #footer .bg-footer .map-site h2 span {
-      font-weight: bold;
-      color: #01ffff; }
+  #footer .bg-footer .btn-footer .bg-btn-footer {
+    display: inline-block;
+    width: auto;
+    padding: 20px 10px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #FFF; }
 
 .icon {
   background: url("../images/spritesheet.png") no-repeat;
