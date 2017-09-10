@@ -437,6 +437,16 @@ a {
 #footer .btn-footer {
   position: relative !important;
   top: -50px !important; }
+  #footer .btn-footer .bg-btn-radius {
+    padding: 15px 10px 10px 10px !important; }
+  #footer .btn-footer .btn-text {
+    width: 50%; }
+    #footer .btn-footer .btn-text h2 {
+      font-size: 16px;
+      line-height: 18px; }
+      #footer .btn-footer .btn-text h2 span {
+        font-size: 12px;
+        display: block; }
 #footer .copyright {
   color: #FFF;
   border-top: 1px solid #253353;
@@ -517,6 +527,10 @@ a {
     width: 64px;
     height: 55px;
     position: relative; }
+  .icon-webmail-footer-arrow {
+    background-position: -91px -80px;
+    width: 16px;
+    height: 12px; }
 
 .btn-header .btn-blue-light, .btn-footer .btn-blue-light {
   background-color: #009fe3;
