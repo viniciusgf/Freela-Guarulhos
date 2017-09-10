@@ -100,12 +100,59 @@
 				display: inline-block;
 				border-bottom: 3px solid #f8fafa;
 				width: 28%;
-					text-align: center;
+				text-align: center;
 				p{
 					padding: 0!important;
 					font-size: 13px;
-					color: #212d4a
+					color: #212d4a;
+				}
+			}
 
+			ul{
+				height: 172px;
+				overflow: hidden;
+				overflow-y: scroll;
+				li{
+					margin-bottom: 30px
+				}
+			}
+		}
+
+		.eventos {
+			ul {
+				margin-top: 20px;
+				li {
+					border-bottom: 1px solid #edf4f4;
+					padding: 20px 0;
+
+					&:last-child {
+						border-bottom: none;
+					}
+					a {
+						color:#212d4a;
+						font-size: 13px;
+					}
+				}
+			}
+		}
+
+		.plano-saude{
+			h2{
+				color: #212d4a;
+				font-weight: bold;
+				text-align: center;
+				font-size: 20px;
+				text-transform: uppercase;
+
+				&:after{
+					margin-top: 10px;
+					content: "";
+					background: #01ffff;
+					width: 140px;
+					height: 3px;
+					position: absolute;
+					left: 0;
+					display: block;
 				}
 			}
 		}
