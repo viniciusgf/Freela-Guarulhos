@@ -87,10 +87,15 @@ include "include/header.php";
 				<div class="downloads">
 					<ul>
 						<li>
-							<a href="">
-								<i class="icon icon-download"></i>
-								PDF LICITAÇÃO
-							</a>
+							<div class="pdf">
+								<a href="">
+									<i class="icon icon-download"></i>
+									PDF LICITAÇÃO
+								</a>
+							</div>
+							<div class="date">
+								<p>10/11/2017</p>
+							</div>
 						</li>
 					</ul>
 				</div>

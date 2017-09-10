@@ -87,6 +87,27 @@
 
 		.downloads{
 			padding: 20px 20px;
+
+			.pdf{
+				display: inline-block;
+				border-bottom: 3px solid #212d4a;
+				padding-bottom: 10px; 
+				width: 70%;
+
+
+			}
+			.date{
+				display: inline-block;
+				border-bottom: 3px solid #f8fafa;
+				width: 28%;
+					text-align: center;
+				p{
+					padding: 0!important;
+					font-size: 13px;
+					color: #212d4a
+
+				}
+			}
 		}
 	}
 }
