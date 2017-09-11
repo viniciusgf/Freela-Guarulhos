@@ -201,26 +201,53 @@ include "include/header.php";
 				<ul>
 					<li>
 						<i class="icon icon-check"></i>
-							Lorem ipsum dolor sit 
+						<p>
+							Lorem <b>ipsum dolor</b> sit 
 							amet, consectetur adipiscing elit.
-						</li>
-					</ul>
-				</div>
-
-
+						</p>
+					</li>
+					<li>
+						<i class="icon icon-check"></i>
+						<p>
+							Lorem <b>ipsum dolor</b> sit 
+						</p>
+					</li>
+					<li>
+						<i class="icon icon-check"></i>
+						<p>
+							amet, consectetur adipiscing elit.
+						</p>
+					</li>
+					<li>
+						<i class="icon icon-check"></i>
+						<p>
+							Lorem <b>ipsum dolor</b> sit 
+							amet, consectetur adipiscing elit.
+						</p>
+					</li>
+				</ul>
 			</div>
 		</div>
-	</section>
+	</div>
+</section>
 
-	<!-- FOOTER -->
-	<?php 
-	include "include/footer.php";
-	?>
+<section id="banner">
+	<div class="container"> 
+		<a href="">
+		<img class="img-responsive" src="../images/banner.png" />
+		</a>
+	</div>
+</section>
 
-	<!-- JS ALL PAGES -->
-	<?php 
-	include "include/js.php";
-	?>
+<!-- FOOTER -->
+<?php 
+include "include/footer.php";
+?>
+
+<!-- JS ALL PAGES -->
+<?php 
+include "include/js.php";
+?>
 
 </body>
 </html>
