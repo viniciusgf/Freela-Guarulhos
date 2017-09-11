@@ -10,8 +10,8 @@
 						<a href="#">Horário de atendimento: das <b>8h às 16:30</b> </a><i class="icon icon-schedule-footer"></i>
 					</p>
 				</div>
-				<div class="col-lg-3 btn-footer .btn-webmail-footer">
-					<a href="" class="bg-btn-radius btn-blue-light">
+				<div class="col-lg-3 btn-footer">
+					<a href="" class="bg-btn-radius btn-blue-light ">
 						<i class="icon icon-webmail-footer"></i>
 						<div class="btn-text">
 							<h2><span>ACESSO AO </span><b>WEBMAIL</b> <i class="icon icon-webmail-footer-arrow"></i></h2>
