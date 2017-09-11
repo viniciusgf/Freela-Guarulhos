@@ -48,7 +48,7 @@ include "include/header.php";
 				<div class="bg-title">
 					<h2>
 						Sobre o <br/>
-						<b>IPREF GUARARULHOS</b>
+						<b>IPREF GUARULHOS</b>
 					</h2>
 				</div>
 			</div>
