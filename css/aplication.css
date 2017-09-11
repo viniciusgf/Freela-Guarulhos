@@ -541,6 +541,12 @@ a {
     height: 17px;
     position: relative;
     top: 3px; }
+  .icon-check {
+    width: 20px;
+    height: 17px;
+    background-position: -98px -138px;
+    position: relative;
+    top: 35px; }
 
 .btn-header .btn-blue-light, .btn-footer .btn-blue-light {
   background-color: #009fe3;
@@ -724,5 +730,16 @@ a {
     position: absolute;
     left: 0;
     display: block; }
+#infos .info-content .plano-saude p {
+  padding: 0;
+  display: inline-block;
+  width: 90%;
+  float: right;
+  margin-top: 20px;
+  font-style: italic;
+  font-size: 15px; }
+
+#banner {
+  margin: 30px 0; }
 
 /*# sourceMappingURL=aplication.css.map */
