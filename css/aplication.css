@@ -345,6 +345,8 @@ a {
         font-size: 14px;
         padding: 20px 12px;
         background: #fff; }
+        #header .nav-menu li a:hover {
+          text-decoration: underline; }
     #header .nav-menu .first a {
       padding: 20px 12px 20px 0; }
   #header .dropdown-content {
@@ -654,6 +656,34 @@ a {
 #breadcrumb .breadcrumb {
   background-color: #fff; }
 
+.plano-saude {
+  background: #fff;
+  border-top-right-radius: 75px; }
+  .plano-saude h2 {
+    color: #212d4a;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase; }
+    .plano-saude h2:after {
+      margin-top: 10px;
+      content: "";
+      background: #01ffff;
+      width: 140px;
+      height: 3px;
+      position: absolute;
+      left: 0;
+      display: block; }
+  .plano-saude ul {
+    padding: 20px 0; }
+  .plano-saude p {
+    padding: 0;
+    display: inline-block;
+    width: 90%;
+    float: right;
+    font-style: italic;
+    font-size: 15px; }
+
 #slide {
   margin-top: 9px; }
   #slide .carousel-indicators .active {
@@ -770,33 +800,6 @@ a {
     #infos .info-content .eventos ul li a {
       color: #212d4a;
       font-size: 13px; }
-#infos .info-content .plano-saude {
-  background: #fff;
-  border-top-right-radius: 75px; }
-  #infos .info-content .plano-saude h2 {
-    color: #212d4a;
-    font-weight: bold;
-    text-align: center;
-    font-size: 20px;
-    text-transform: uppercase; }
-    #infos .info-content .plano-saude h2:after {
-      margin-top: 10px;
-      content: "";
-      background: #01ffff;
-      width: 140px;
-      height: 3px;
-      position: absolute;
-      left: 0;
-      display: block; }
-  #infos .info-content .plano-saude ul {
-    padding: 20px 0; }
-  #infos .info-content .plano-saude p {
-    padding: 0;
-    display: inline-block;
-    width: 90%;
-    float: right;
-    font-style: italic;
-    font-size: 15px; }
 
 #banner {
   margin: 30px 0; }
@@ -841,19 +844,88 @@ a {
         #news .list-news ul li a:hover {
           border-left: 8px solid #00ffff; }
 
-#rede-credenciada .text p {
-  color: #212d4a;
-  padding: 30px 40px 20px; }
-#rede-credenciada .btn-footer .bg-btn-radius .btn-text {
-  width: 60%;
-  margin-left: 15px; }
-  #rede-credenciada .btn-footer .bg-btn-radius .btn-text p {
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 1;
-    font-style: normal;
-    text-transform: uppercase; }
-    #rede-credenciada .btn-footer .bg-btn-radius .btn-text p span {
-      color: #00ffff; }
+#bg-saude-inner {
+  background: url("../images/bg-saude-inner.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  width: 910px;
+  height: 923px;
+  position: absolute;
+  z-index: -1;
+  right: 0; }
+
+#rede-credenciada {
+  margin-top: 100px; }
+  #rede-credenciada:before {
+    content: "";
+    background: url("../images/bg-grey-left.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    width: 993px;
+    height: 375px;
+    z-index: -1;
+    left: 0;
+    position: absolute; }
+  #rede-credenciada .text p {
+    color: #212d4a;
+    padding: 30px 40px 20px; }
+  #rede-credenciada .btn-footer .bg-btn-radius {
+    position: relative;
+    top: 80px;
+    left: 6%; }
+    #rede-credenciada .btn-footer .bg-btn-radius .btn-text {
+      width: 60%;
+      margin-left: 15px; }
+      #rede-credenciada .btn-footer .bg-btn-radius .btn-text p {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1;
+        font-style: normal;
+        text-transform: uppercase; }
+        #rede-credenciada .btn-footer .bg-btn-radius .btn-text p span {
+          color: #00ffff; }
+
+#planos {
+  margin-top: 200px;
+  margin-bottom: 100px; }
+  #planos:after {
+    content: "";
+    background: url("../images/bg-blue-right.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    width: 921px;
+    height: 565px;
+    z-index: -1;
+    right: 0;
+    top: 1141px;
+    position: absolute; }
+  #planos .plano-saude {
+    border-top-left-radius: 75px; }
+  #planos .title-info h2 {
+    left: 40%;
+    margin: 30px 0 60px; }
+
+#faq-saude .tab {
+  margin-top: 50px; }
+  #faq-saude .tab p {
+    padding: 30px 30px;
+    font-style: italic;
+    font-size: 14px;
+    color: #212d4a;
+    border-left: 8px solid #fff;
+    border-bottom: 1px solid #edf4f4;
+    margin: 0; }
+    #faq-saude .tab p:hover {
+      border-left: 8px solid #00ffff; }
+
+#text-sobre .text {
+  padding-left: 20px;
+  padding-right: 150px;
+  margin-top: 40px; }
+  #text-sobre .text p {
+    color: #212d4a; }
 
 /*# sourceMappingURL=aplication.css.map */

@@ -47,9 +47,9 @@
 			<!-- menu nav -->
 			<nav>
 				<ul class="nav-menu">
-					<li class="first"><a>HOME</a></li>
+					<li class="first"><a href="index.php">HOME</a></li>
 					<li class="dropdown">
-						<a id="menu-dropdown" href="../Html/sobre.php">
+						<a id="menu-dropdown" href="sobre.php">
 							O IPREF
 							<i class="fa fa-chevron-down" aria-hidden="true"></i>
 						</a>
@@ -90,7 +90,7 @@
 						</div>
 					</li>
 					<li><a>PREVIDÊNCIA</a></li>
-					<li><a>SAÚDE</a></li>
+					<li><a href="saude.php">SAÚDE</a></li>
 					<li><a>NOTÍCIAS</a></li>
 					<li><a>FAQ</a></li>
 					<li><a>TRANSPARÊNCIA</a></li>

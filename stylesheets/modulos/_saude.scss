@@ -1,4 +1,31 @@
+#bg-saude-inner{
+	background: url('../images/bg-saude-inner.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	width: 910px;
+	height: 923px;
+	position: absolute;
+	z-index: -1;
+	right: 0;
+}
+
 #rede-credenciada {
+	margin-top: 100px;
+
+	&:before{
+		content:"";
+		background: url('../images/bg-grey-left.png');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 100%;
+		width: 993px;
+		height: 375px;
+		z-index: -1;
+		left:  0;
+		position: absolute;
+	}
+
 	.text {
 		p {
 			color: #212d4a;
@@ -7,6 +34,9 @@
 	}
 	.btn-footer {
 		.bg-btn-radius {
+			position: relative;
+			top: 80px;
+			left: 6%;
 			.btn-text {
 				width: 60%;
 				margin-left: 15px;
@@ -25,4 +55,55 @@
 			}
 		}
 	}
+}
+
+#planos {
+	margin-top: 200px;
+	margin-bottom: 100px;
+
+	&:after{
+		content:"";
+		background: url('../images/bg-blue-right.png');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 100%;
+		width: 921px;
+		height: 565px;
+		z-index: -1;
+		right:  0;
+		top: 1141px;
+		position: absolute;
+	}
+
+	.plano-saude{
+		border-top-left-radius: 75px;
+	}
+
+	.title-info {
+		h2 {
+			left: 40%;
+			margin: 30px 0 60px
+		}
+	}
+
+}
+
+#faq-saude {
+	.tab {
+		margin-top: 50px;
+		p {
+			padding: 30px 30px;
+			font-style: italic;
+			font-size: 14px;
+			color: #212d4a;
+			border-left: 8px solid #fff;
+			border-bottom: 1px solid #edf4f4;
+			margin: 0;
+
+			&:hover{
+				border-left: 8px solid #00ffff;
+			}
+		}
+	}
+
 }

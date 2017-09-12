@@ -166,39 +166,7 @@
 			}
 		}
 
-		.plano-saude{
-			background: #fff;
-			border-top-right-radius: 75px;
-			h2{
-				color: #212d4a;
-				font-weight: bold;
-				text-align: center;
-				font-size: 20px;
-				text-transform: uppercase;
-
-				&:after{
-					margin-top: 10px;
-					content: "";
-					background: #01ffff;
-					width: 140px;
-					height: 3px;
-					position: absolute;
-					left: 0;
-					display: block;
-				}
-			}
-			ul{
-				padding: 20px 0;
-			}
-			p{
-				padding: 0;
-				display: inline-block;
-				width: 90%;
-				float: right;
-				font-style: italic;
-				font-size: 15px;
-			}
-		}
+		
 	}
 }
 
