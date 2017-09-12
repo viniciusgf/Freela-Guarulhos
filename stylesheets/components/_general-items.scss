@@ -85,7 +85,7 @@
     color: #009fe3;
     font-size: 36px;
     text-transform: uppercase;
-        position: relative;
+    position: relative;
     left: 20px;
 
     &::before{
@@ -106,3 +106,31 @@
   }
 }
 
+.btn-blue{
+  a{
+    background: #009fe3;
+    text-align: center;
+    color: #fff;
+    padding: 12px 20px;
+    color: #fff;
+    @include transition(all 0.3s);
+
+    &:hover{
+      background: darken(#009fe3,10%);
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .icon-arrow-white{
+      top: 2px;
+      left: 3px;
+    }
+  }
+
+}
+
+#breadcrumb{
+  .breadcrumb{
+    background-color: #fff;
+  }
+}

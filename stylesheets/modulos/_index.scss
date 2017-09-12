@@ -1,4 +1,6 @@
 #slide {
+	margin-top: 9px;
+
 	.carousel-indicators .active {
 		background-color: #009fe3!important;
 		border: 1px solid #009fe3;
@@ -49,9 +51,10 @@
 		position: relative;
 		top: -125px;
 		left: 55px;
-		h2{
+		h2{	
+			font-weight: 100;
 			color: #fff;
-			font-size: 30px;
+			font-size: 36px;
 			text-transform: uppercase;
 			position: relative;
 			top: 165px;
@@ -78,6 +81,18 @@
 }
 
 #infos{
+	&:after{
+		content: "";
+		background: url("../images/bg-info.png");
+		width: 945px;
+		height: 500px;
+		position: absolute;
+		top: 940px;
+		right: -110px;
+		z-index: -1;
+		background-repeat: no-repeat;
+	}
+
 	.info-content{
 		p{
 			color: #212d4a;
@@ -112,6 +127,21 @@
 				height: 172px;
 				overflow: hidden;
 				overflow-y: scroll;
+
+				&::-webkit-scrollbar-track {
+					border-radius: 10px;
+					background-color: #e0e0e0;
+				}
+				&::-webkit-scrollbar {
+					width: 12px;
+					background-color: #f8fafa;
+				}
+
+				&::-webkit-scrollbar-thumb {
+					border-radius: 10px;
+					background-color: #edf4f4;
+				}
+
 				li{
 					margin-bottom: 30px
 				}
@@ -137,6 +167,8 @@
 		}
 
 		.plano-saude{
+			background: #fff;
+			border-top-right-radius: 75px;
 			h2{
 				color: #212d4a;
 				font-weight: bold;
@@ -155,12 +187,14 @@
 					display: block;
 				}
 			}
+			ul{
+				padding: 20px 0;
+			}
 			p{
 				padding: 0;
 				display: inline-block;
 				width: 90%;
 				float: right;
-				margin-top: 20px;
 				font-style: italic;
 				font-size: 15px;
 			}
@@ -168,6 +202,61 @@
 	}
 }
 
-#banner{
+#banner {
 	margin: 30px 0
+}
+
+#news {
+	margin-top: 90px;
+	&:after {
+		content: "";
+		background: url("../images/bg-news.png");
+		width: 945px;
+		height: 595px;
+		position: absolute;
+		top: 1715px;
+		left: -290px;
+		z-index: -1;
+		background-repeat: no-repeat;
+	}
+
+	.destaque {
+		.title-destaque {
+			background: #fff;
+			border-top-right-radius: 20px;
+			border-left: 8px solid #212d4a;
+			padding: 30px 20px;
+			width: 90%;
+			position: relative;
+			top: -75px;
+			left: 5%;
+
+			h3 {
+				font-size: 18px;
+				color: #212d4a;
+			}
+		}
+	}
+
+	.list-news {
+		ul {
+			margin-top: 95px;
+
+			li {
+				height: 79px;
+				a {
+					color: #212d4a;
+					border-bottom: 1px solid #edf4f4;
+					border-left: 8px solid #fff;
+					padding: 30px;
+					height: 30px;
+					@include transition(all 0.3s);	
+
+					&:hover {
+						border-left: 8px solid #00ffff;
+					}
+				}
+			}
+		}
+	}
 }

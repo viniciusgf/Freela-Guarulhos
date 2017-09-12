@@ -198,34 +198,33 @@ include "include/header.php";
 				<img class="img-responsive" src="../images/img-saude.png" />
 				<h2>Planos de saúde ipref</h2>
 
-				<ul>
+				<ul class="clearfix">
 					<li>
-						<i class="icon icon-check"></i>
 						<p>
 							Lorem <b>ipsum dolor</b> sit 
 							amet, consectetur adipiscing elit.
 						</p>
 					</li>
 					<li>
-						<i class="icon icon-check"></i>
 						<p>
 							Lorem <b>ipsum dolor</b> sit 
 						</p>
 					</li>
 					<li>
-						<i class="icon icon-check"></i>
 						<p>
 							amet, consectetur adipiscing elit.
 						</p>
 					</li>
 					<li>
-						<i class="icon icon-check"></i>
 						<p>
 							Lorem <b>ipsum dolor</b> sit 
 							amet, consectetur adipiscing elit.
 						</p>
 					</li>
 				</ul>
+				<div class="btn-blue text-center">
+					<a href="">contrate agora <i class="icon icon-arrow-white"></i></a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -234,8 +233,56 @@ include "include/header.php";
 <section id="banner">
 	<div class="container"> 
 		<a href="">
-		<img class="img-responsive" src="../images/banner.png" />
+			<img class="img-responsive" src="../images/banner.png" />
 		</a>
+	</div>
+</section>
+
+<section id="news">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 destaque no-padding">
+				<article>
+					<a href="">
+						<img class="img-responsive" src="../images/img-news.png" />
+						<div class="title-destaque">
+							<h3>
+								Respostas ao pedido de esclarecimento Nº 01 ao pregão 
+								presencial Nº 003/2017.
+							</h3>
+						</div>
+					</a>
+				</article>
+			</div>
+			<div class="col-lg-6 list-news no-padding">
+				<ul>
+					<li>
+						<a href="">
+								Respostas ao pedido de esclarecimento Nº 02 ao pregão 
+								presencial Nº 003/2017.
+						</a>
+					</li>
+					<li>
+						<a href="">
+								Respostas ao pedido de esclarecimento Nº 02 ao pregão 
+								presencial Nº 003/2017.
+						</a>
+					</li>
+					<li>
+						<a href="">
+								Respostas ao pedido de esclarecimento Nº 02 ao pregão 
+								presencial Nº 003/2017.
+						</a>
+					</li>
+					<li>
+						<a href="">
+								Respostas ao pedido de esclarecimento Nº 02 ao pregão 
+								presencial Nº 003/2017.
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 </section>
 
