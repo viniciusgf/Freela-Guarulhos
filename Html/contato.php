@@ -17,6 +17,11 @@ include "include/header.php";
 	<div class="contact-form">
 		<h1>DEIXE SUA</h1><br> 
 		<span>MENSAGEM</span>
+
+		<p>
+			Para tirar suas dúvidas, fazer comentários ou dar sua
+			opinião sobre o <b>IPREF</b>, utilize o formulário abaixo ou use um dos nossos meios:
+		</p>
 	</div>
 </div>
 

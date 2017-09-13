@@ -1096,6 +1096,8 @@ a {
   .contact-form span {
     color: #212d4a;
     font-weight: bold;
-    font-size: 40px; }
+    font-size: 38px; }
+  .contact-form p {
+    font-size: 17px; }
 
 /*# sourceMappingURL=aplication.css.map */
