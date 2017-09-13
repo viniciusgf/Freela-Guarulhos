@@ -100,7 +100,11 @@
 					<li><a>FAQ</a></li>
 					<li><a>TRANSPARÊNCIA</a></li>
 					<li><a>LINKS</a></li>
-					<li><a>CONTATO</a></li>
+					<li>
+						<a href="contato.php">
+							CONTATO
+						</a>
+					</li>
 					<li class="bg-menu-alt">
 						<a>
 							<i class="icon icon-holerite"></i>

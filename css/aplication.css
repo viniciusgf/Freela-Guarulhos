@@ -1078,4 +1078,24 @@ a {
   #info-tab .info-plano .text i {
     padding-left: 20px; }
 
+.contact-form {
+  margin-top: 130px; }
+  .contact-form h1 {
+    color: #009fe3;
+    font-weight: 400;
+    margin-bottom: -20px; }
+    .contact-form h1::before {
+      content: "";
+      background-color: #f7fafa;
+      width: 115px;
+      height: 78px;
+      position: absolute;
+      z-index: -1;
+      left: 309px;
+      top: 385px; }
+  .contact-form span {
+    color: #212d4a;
+    font-weight: bold;
+    font-size: 40px; }
+
 /*# sourceMappingURL=aplication.css.map */

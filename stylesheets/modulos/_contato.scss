@@ -1,0 +1,27 @@
+.contact-form {
+	margin-top: 130px;
+
+	h1 {
+		color: #009fe3;
+		font-weight: 400;
+		margin-bottom: -20px;
+
+		&::before{
+			content:"";
+			background-color: #f7fafa;
+			width: 115px;
+			height: 78px;
+			position: absolute;
+			z-index: -1;
+			left: 309px;
+			top: 385px;
+		}
+
+	}
+	span {
+		color: #212d4a;
+		font-weight: bold;
+		font-size: 40px;
+		
+	}
+}
