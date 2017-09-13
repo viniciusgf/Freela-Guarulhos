@@ -7,6 +7,11 @@
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<!-- tab -->
+	<link rel="stylesheet" type="text/css" href="../css/tabs.css" />
+	<link rel="stylesheet" type="text/css" href="../css/tabstyles.css" />
+	<script src="../js/modernizr.custom.js"></script>
 </head>
 <body>
 	<div class="overlay"></div>

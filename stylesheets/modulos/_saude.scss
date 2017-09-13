@@ -26,6 +26,14 @@
 		position: absolute;
 	}
 
+	.title-info {
+		h2 {
+			&:before {
+				background: #eaf1f6;
+			}
+		}
+	}
+
 	.text {
 		p {
 			color: #212d4a;
@@ -75,8 +83,25 @@
 		position: absolute;
 	}
 
-	.plano-saude{
+	.plano-saude {
 		border-top-left-radius: 75px;
+		border-bottom-right-radius: 75px;
+
+		p {
+			padding: 0 10px;
+		}
+
+		h2 {
+			&:after {
+				height: 4px;
+				left: 40px;
+
+			}
+		}
+	}
+
+	.plano-saude.alt {
+		background: #f8fafa;
 	}
 
 	.title-info {
@@ -89,21 +114,60 @@
 }
 
 #faq-saude {
-	.tab {
-		margin-top: 50px;
-		p {
+	.panel{
+		box-shadow: none;
+	}
+
+	.panel-heading {
+		padding: 0;
+	}
+
+	.collapse.in {
+		border-left: 8px solid #00ffff;
+	}
+	.collapse {
+		border-left: 8px solid #fff;
+	}
+
+	.panel-default {
+		border: none;
+		margin: 0;
+
+		& > .panel-heading {
+			background-color: #fff;
+			border-color: #fff;
+			border:none;
+		}
+		.panel-title {
 			padding: 30px 30px;
 			font-style: italic;
 			font-size: 14px;
 			color: #212d4a;
 			border-left: 8px solid #fff;
-			border-bottom: 1px solid #edf4f4;
+			border-top: 1px solid #edf4f4;
 			margin: 0;
+			@include transition(all 0.3s);
+
 
 			&:hover{
 				border-left: 8px solid #00ffff;
 			}
 		}
+
+		.panel-body {
+			border: none;
+			padding: 30px 30px;
+			font-style: italic;
+			font-size: 14px;
+			color: #93a9b8;
+			border-left: 8px solid #fff;
+			margin: 0;
+			@include transition(all 0.3s);
+		}
+	}
+
+	.title-info {
+		margin-bottom: 30px;
 	}
 
 }

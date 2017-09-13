@@ -1,11 +1,79 @@
 #text-sobre {
+	&:before {
+		content:"";
+		background: url('../images/bg-grey-left.png');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 100%;
+		width: 906px;
+		height: 375px;
+		z-index: -1;
+		left:  -4%;
+		position: absolute;
+	}
+
 	.text {
 		padding-left: 20px;
 		padding-right: 150px;
 		margin-top: 40px;
 
 		p {
-			color: #212d4a
+			color: #212d4a;
+			margin: 35px 0;
+			line-height: 22px
+		}
+	}
+
+	.box-shadow {
+		margin: 50px 0;
+
+		.box{
+			background: #fff;
+			width: 90%;
+			height: 190px;
+			padding: 10px 0;
+			-webkit-box-shadow: 2px 0px 15px -1px rgba(171,171,171,0.2);
+			-moz-box-shadow: 2px 0px 15px -1px rgba(171,171,171,0.2);
+			box-shadow: 2px 0px 15px -1px rgba(171,171,171,0.2);
+			border-bottom-right-radius: 35px
+		}
+
+		.title-bar {
+			margin-top: 20px;
+			h2 {
+				color: #212d4a; 
+				font-size: 20px;
+			}
+		}
+
+		.visao {
+			font-style: italic;
+			color: #212d4a;
+			width: 40%;
+			margin-left: 40px;
+		}
+		.missao {
+			font-style: italic;
+			padding: 0 40px;
+			color: #212d4a;
+		}
+	}
+
+	.estrutura {
+		margin-top: 50px;
+
+		h2 {
+			color: #212d4a;
+			font-weight: bold;
+			margin-bottom: 30px
+		}
+
+		p {
+			color: #212d4a;
+
+			a {
+				color: #009fe3;	
+			}
 		}
 	}
 }

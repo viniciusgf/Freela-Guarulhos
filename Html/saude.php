@@ -63,7 +63,7 @@ include "include/header.php";
 			</div>
 			<div class="row">
 				<div class="col-lg-4">
-					<div class="plano-saude">
+					<div class="plano-saude alt">
 						<img class="img-responsive" src="../images/planos-1.png" />
 						<h2>Planos de saúde ipref</h2>
 
@@ -178,20 +178,54 @@ include "include/header.php";
 				<h2>Perguntas <span>frequentes</span></h2>
 			</div>
 
-			<div class="tab">
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium a ex aliquam luctus. Ut ut convallis nisi. Integer viverra ac dui at convallis. Nunc rhoncus 
-					sollicitudin erat, at tempor nisl finibus vel? Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				</p>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium a ex aliquam luctus. Ut ut convallis nisi. Integer viverra ac dui at convallis. Nunc rhoncus 
-					sollicitudin erat, at tempor nisl finibus vel? Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				</p>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium a ex aliquam luctus. Ut ut convallis nisi. Integer viverra ac dui at convallis. Nunc rhoncus 
-					sollicitudin erat, at tempor nisl finibus vel? Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				</p>
+			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingTwo">
+						<h4 class="panel-title">
+							<a class="collapsed border" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium a ex aliquam luctus. Ut ut convallis nisi. Integer viverra ac dui at convallis. Nunc rhoncus 
+								sollicitudin erat, at tempor nisl finibus vel? Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							</a>
+						</h4>
+					</div>
+					<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+						<div class="panel-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingThree">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium a ex aliquam luctus. Ut ut convallis nisi. Integer viverra ac dui at convallis. Nunc rhoncus 
+								sollicitudin erat, at tempor nisl finibus vel? Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							</a>
+						</h4>
+					</div>
+					<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+						<div class="panel-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						</div>
+					</div>
+				</div>
 			</div>
+
+			<!-- <div class="tab">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium a ex aliquam luctus. Ut ut convallis nisi. Integer viverra ac dui at convallis. Nunc rhoncus 
+					sollicitudin erat, at tempor nisl finibus vel? Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium a ex aliquam luctus. Ut ut convallis nisi. Integer viverra ac dui at convallis. Nunc rhoncus 
+					sollicitudin erat, at tempor nisl finibus vel? Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium a ex aliquam luctus. Ut ut convallis nisi. Integer viverra ac dui at convallis. Nunc rhoncus 
+					sollicitudin erat, at tempor nisl finibus vel? Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				</p>
+			</div> -->
 
 		</div>
 	</section>

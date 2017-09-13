@@ -562,6 +562,32 @@ a {
     height: 89px;
     background-position: -383px -4px;
     position: relative; }
+  .icon-credenciados {
+    width: 16px;
+    height: 20px;
+    background-position: -11px -230px;
+    position: relative;
+    top: 3px; }
+  .icon-caracteristicas {
+    width: 20px;
+    height: 20px;
+    background-position: -9px -276px;
+    position: relative; }
+  .icon-legislacao {
+    width: 16px;
+    height: 20px;
+    background-position: -43px -276px;
+    position: relative; }
+  .icon-contribuicao {
+    width: 20px;
+    height: 15px;
+    background-position: -11px -310px;
+    position: relative; }
+  .icon-documentos {
+    width: 20px;
+    height: 20px;
+    background-position: -42px -313px;
+    position: relative; }
 
 .btn-header .btn-blue-light, .btn-footer .btn-blue-light {
   background-color: #009fe3;
@@ -683,6 +709,9 @@ a {
     float: right;
     font-style: italic;
     font-size: 15px; }
+
+.border-bottom-blue {
+  border-bottom: 1px solid #f6f6f6; }
 
 #slide {
   margin-top: 9px; }
@@ -868,6 +897,8 @@ a {
     z-index: -1;
     left: 0;
     position: absolute; }
+  #rede-credenciada .title-info h2:before {
+    background: #eaf1f6; }
   #rede-credenciada .text p {
     color: #212d4a;
     padding: 30px 40px 20px; }
@@ -903,29 +934,120 @@ a {
     top: 1141px;
     position: absolute; }
   #planos .plano-saude {
-    border-top-left-radius: 75px; }
+    border-top-left-radius: 75px;
+    border-bottom-right-radius: 75px; }
+    #planos .plano-saude p {
+      padding: 0 10px; }
+    #planos .plano-saude h2:after {
+      height: 4px;
+      left: 40px; }
+  #planos .plano-saude.alt {
+    background: #f8fafa; }
   #planos .title-info h2 {
     left: 40%;
     margin: 30px 0 60px; }
 
-#faq-saude .tab {
-  margin-top: 50px; }
-  #faq-saude .tab p {
+#faq-saude .panel {
+  box-shadow: none; }
+#faq-saude .panel-heading {
+  padding: 0; }
+#faq-saude .collapse.in {
+  border-left: 8px solid #00ffff; }
+#faq-saude .collapse {
+  border-left: 8px solid #fff; }
+#faq-saude .panel-default {
+  border: none;
+  margin: 0; }
+  #faq-saude .panel-default > .panel-heading {
+    background-color: #fff;
+    border-color: #fff;
+    border: none; }
+  #faq-saude .panel-default .panel-title {
     padding: 30px 30px;
     font-style: italic;
     font-size: 14px;
     color: #212d4a;
     border-left: 8px solid #fff;
-    border-bottom: 1px solid #edf4f4;
-    margin: 0; }
-    #faq-saude .tab p:hover {
+    border-top: 1px solid #edf4f4;
+    margin: 0;
+    -webkit-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-webkit-transition: all 0.3s; }
+    #faq-saude .panel-default .panel-title:hover {
       border-left: 8px solid #00ffff; }
+  #faq-saude .panel-default .panel-body {
+    border: none;
+    padding: 30px 30px;
+    font-style: italic;
+    font-size: 14px;
+    color: #93a9b8;
+    border-left: 8px solid #fff;
+    margin: 0;
+    -webkit-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-webkit-transition: all 0.3s; }
+#faq-saude .title-info {
+  margin-bottom: 30px; }
 
+#text-sobre:before {
+  content: "";
+  background: url("../images/bg-grey-left.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  width: 906px;
+  height: 375px;
+  z-index: -1;
+  left: -4%;
+  position: absolute; }
 #text-sobre .text {
   padding-left: 20px;
   padding-right: 150px;
   margin-top: 40px; }
   #text-sobre .text p {
+    color: #212d4a;
+    margin: 35px 0;
+    line-height: 22px; }
+#text-sobre .box-shadow {
+  margin: 50px 0; }
+  #text-sobre .box-shadow .box {
+    background: #fff;
+    width: 90%;
+    height: 190px;
+    padding: 10px 0;
+    -webkit-box-shadow: 2px 0px 15px -1px rgba(171, 171, 171, 0.2);
+    -moz-box-shadow: 2px 0px 15px -1px rgba(171, 171, 171, 0.2);
+    box-shadow: 2px 0px 15px -1px rgba(171, 171, 171, 0.2);
+    border-bottom-right-radius: 35px; }
+  #text-sobre .box-shadow .title-bar {
+    margin-top: 20px; }
+    #text-sobre .box-shadow .title-bar h2 {
+      color: #212d4a;
+      font-size: 20px; }
+  #text-sobre .box-shadow .visao {
+    font-style: italic;
+    color: #212d4a;
+    width: 40%;
+    margin-left: 40px; }
+  #text-sobre .box-shadow .missao {
+    font-style: italic;
+    padding: 0 40px;
     color: #212d4a; }
+#text-sobre .estrutura {
+  margin-top: 50px; }
+  #text-sobre .estrutura h2 {
+    color: #212d4a;
+    font-weight: bold;
+    margin-bottom: 30px; }
+  #text-sobre .estrutura p {
+    color: #212d4a; }
+    #text-sobre .estrutura p a {
+      color: #009fe3; }
+
+#info-tab span {
+  color: #009fe3;
+  font-weight: normal;
+  font-size: 15px;
+  opacity: 0.5; }
 
 /*# sourceMappingURL=aplication.css.map */

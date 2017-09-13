@@ -52,36 +52,40 @@ include "include/header.php";
 			</div>
 		</div>
 
-		<div class="row">
+		<div class="row border-bottom-blue" >
 			<div class="col-lg-6 box-shadow">
-				<div class="title-bar">
-					<h2 style="color: #212d4a; font-size: 25px">
-						VISÃO
-					</h2>
-				</div>
+				<div class="box">  
+					<div class="title-bar">
+						<h2>
+							VISÃO
+						</h2>
+					</div>
 
-				<p style="font-style: italic;">
-					"Ser o órgão de Seguridade 
-					Social do Servidor Público Municipal 
-					de Guarulhos"
-				</p>
-				
+					<p class="visao">
+						"Ser o órgão de Seguridade 
+						Social do Servidor Público Municipal 
+						de Guarulhos"
+					</p>
+
+				</div>
 			</div>
 
 			<div class="col-lg-6 box-shadow">
-				<div class="title-bar">
-					<h2 style="color: #212d4a; font-size: 25px">
-						MISSÃO
-					</h2>
-				</div>
+				<div class="box">
+					<div class="title-bar">
+						<h2>
+							MISSÃO
+						</h2>
+					</div>
 
-				<p style="font-style: italic;">
-					"Conceder e administrar os benefícios da Previdência 
-					e Assistência à Saúde em favor dos servidores e seus 
-					dependentes, com excelência e de acordo com a política 
-					de Recursos Humanos da Administração Municipal."
-				</p>
-				
+					<p class="missao">
+						"Conceder e administrar os benefícios da Previdência 
+						e Assistência à Saúde em favor dos servidores e seus 
+						dependentes, com excelência e de acordo com a política 
+						de Recursos Humanos da Administração Municipal."
+					</p>
+
+				</div>
 			</div>
 		</div>
 
