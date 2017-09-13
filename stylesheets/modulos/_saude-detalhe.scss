@@ -5,4 +5,35 @@
 		font-size: 15px;
 		opacity: 0.5;
 	}
+
+	.info-plano {
+		.text{
+			margin: 50px 0;
+			-webkit-box-shadow: 2px 0px 15px -1px rgba(171,171,171,0.2);
+			-moz-box-shadow: 2px 0px 15px -1px rgba(171,171,171,0.2);
+			box-shadow: 2px 0px 15px -1px rgba(171,171,171,0.2);
+			padding: 30px 20px;
+
+		p {
+			color: #212d4a;
+			font-size: 14px;
+			font-weight: normal;
+			padding-left: 20px;
+			line-height: 1.2;
+
+		}
+
+		.line{
+			line-height: 2;
+		}
+
+		.alt{
+			font-weight: bold;
+			font-style: italic;
+		}
+		i {
+			padding-left: 20px;
+		}
+		}
+	}
 }

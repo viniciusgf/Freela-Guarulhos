@@ -557,6 +557,11 @@ a {
     background-position: -98px -138px;
     position: relative;
     top: 35px; }
+  .icon-check-blue {
+    width: 14px;
+    height: 14px;
+    background-position: -87px -173px;
+    top: 35px; }
   .icon-map-saude {
     width: 89px;
     height: 89px;
@@ -567,27 +572,31 @@ a {
     height: 20px;
     background-position: -11px -230px;
     position: relative;
-    top: 3px; }
+    top: 5px; }
   .icon-caracteristicas {
     width: 20px;
     height: 20px;
     background-position: -9px -276px;
-    position: relative; }
+    position: relative;
+    top: 5px; }
   .icon-legislacao {
     width: 16px;
     height: 20px;
     background-position: -43px -276px;
-    position: relative; }
+    position: relative;
+    top: 5px; }
   .icon-contribuicao {
     width: 20px;
     height: 15px;
     background-position: -11px -310px;
-    position: relative; }
+    position: relative;
+    top: 5px; }
   .icon-documentos {
     width: 20px;
     height: 20px;
     background-position: -42px -313px;
-    position: relative; }
+    position: relative;
+    top: 5px; }
 
 .btn-header .btn-blue-light, .btn-footer .btn-blue-light {
   background-color: #009fe3;
@@ -1049,5 +1058,24 @@ a {
   font-weight: normal;
   font-size: 15px;
   opacity: 0.5; }
+#info-tab .info-plano .text {
+  margin: 50px 0;
+  -webkit-box-shadow: 2px 0px 15px -1px rgba(171, 171, 171, 0.2);
+  -moz-box-shadow: 2px 0px 15px -1px rgba(171, 171, 171, 0.2);
+  box-shadow: 2px 0px 15px -1px rgba(171, 171, 171, 0.2);
+  padding: 30px 20px; }
+  #info-tab .info-plano .text p {
+    color: #212d4a;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 20px;
+    line-height: 1.2; }
+  #info-tab .info-plano .text .line {
+    line-height: 2; }
+  #info-tab .info-plano .text .alt {
+    font-weight: bold;
+    font-style: italic; }
+  #info-tab .info-plano .text i {
+    padding-left: 20px; }
 
 /*# sourceMappingURL=aplication.css.map */
