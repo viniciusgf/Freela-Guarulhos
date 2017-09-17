@@ -1,4 +1,14 @@
 #header {
+	.btn-header {
+		.bg-btn-radius {
+			.btn-text {
+				p,h2 {
+					margin-left: 10px;
+				}
+			}
+		}
+	}
+
 	.top-label {
 		border-top: 5px solid #212d4a;
 		padding: 30px 0; 
@@ -46,8 +56,8 @@
 				padding: 20px 16px!important;
 
 				&:hover{
-					background: #009fe3;
-					color: #f5f8fa;
+					background: #009fe3!important;
+					color: #f5f8fa!important;
 				}
 			}
 		}

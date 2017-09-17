@@ -127,7 +127,7 @@ include "include/header.php";
 							</li>
 						</ul>
 						<div class="btn-blue text-center">
-							<a href="">contrate agora <i class="icon icon-arrow-white"></i></a>
+							<a href="saude-detalhe.php">contrate agora <i class="icon icon-arrow-white"></i></a>
 						</div>
 					</div>
 				</div>
@@ -162,7 +162,7 @@ include "include/header.php";
 							</li>
 						</ul>
 						<div class="btn-blue text-center">
-							<a href="">contrate agora <i class="icon icon-arrow-white"></i></a>
+							<a href="saude-detalhe.php">contrate agora <i class="icon icon-arrow-white"></i></a>
 						</div>
 					</div>
 				</div>

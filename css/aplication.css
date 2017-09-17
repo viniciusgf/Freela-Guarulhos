@@ -299,6 +299,8 @@ a {
 #header {
   /*menu-navigation*/
   /*dropdown button "O IPREF"*/ }
+  #header .btn-header .bg-btn-radius .btn-text p, #header .btn-header .bg-btn-radius .btn-text h2 {
+    margin-left: 10px; }
   #header .top-label {
     border-top: 5px solid #212d4a;
     padding: 30px 0; }
@@ -341,8 +343,8 @@ a {
       -moz-webkit-transition: all 0.3s;
       padding: 20px 16px !important; }
       #header .nav-menu .bg-menu-alt a:hover {
-        background: #009fe3;
-        color: #f5f8fa; }
+        background: #009fe3 !important;
+        color: #f5f8fa !important; }
     #header .nav-menu li {
       display: inline; }
       #header .nav-menu li a {
@@ -429,6 +431,8 @@ a {
     color: #fff;
     margin: 0;
     font-size: 16px; }
+  #footer .map-site h2 {
+    font-size: 20px; }
   #footer .map-site ul li {
     display: inline;
     float: left;
@@ -935,16 +939,18 @@ a {
     background: #eaf1f6; }
   #rede-credenciada .text p {
     color: #212d4a;
-    padding: 30px 40px 20px; }
+    padding: 30px 40px 20px;
+    font-size: 18px; }
   #rede-credenciada .btn-footer .bg-btn-radius {
     position: relative;
     top: 80px;
-    left: 6%; }
+    left: 6%;
+    padding: 50px 30px; }
     #rede-credenciada .btn-footer .bg-btn-radius .btn-text {
-      width: 60%;
+      width: 65%;
       margin-left: 15px; }
       #rede-credenciada .btn-footer .bg-btn-radius .btn-text p {
-        font-size: 16px;
+        font-size: 20px;
         font-weight: bold;
         line-height: 1;
         font-style: normal;
@@ -965,7 +971,7 @@ a {
     height: 565px;
     z-index: -1;
     right: 0;
-    top: 1141px;
+    top: 1250px;
     position: absolute; }
   #planos .plano-saude {
     border-top-left-radius: 75px;
@@ -979,7 +985,7 @@ a {
     background: #f8fafa; }
   #planos .title-info h2 {
     left: 40%;
-    margin: 30px 0 60px; }
+    margin: 30px 0 95px; }
 
 #faq-saude .panel {
   box-shadow: none; }
