@@ -22,7 +22,7 @@
 			</div> 
 
 			<div class="row">
-				<div class="col-lg-4 title-bar map-site">
+				<div class="col-lg-5 title-bar map-site">
 					<h2>
 						PRESTAÇÃO <span>DE SERVIÇOS</span>
 					</h2>
@@ -73,7 +73,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-lg-4 title-bar map-site">
+				<div class="col-lg-3 title-bar map-site">
 					<h2>
 						INSTITUCIONAL
 					</h2>

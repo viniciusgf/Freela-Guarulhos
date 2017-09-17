@@ -419,11 +419,11 @@ a {
   #footer .map-site p, #footer .map-site a {
     color: #fff;
     margin: 0;
-    font-size: 12px; }
+    font-size: 16px; }
   #footer .map-site ul li {
     display: inline;
     float: left;
-    width: 175px; }
+    width: 200px; }
   #footer .one-colum-map li {
     width: 100% !important; }
   #footer .bg-footer {
@@ -434,7 +434,7 @@ a {
     margin: 12px 0 !important; }
   #footer .address-footer a {
     display: inline-block;
-    font-size: 13px; }
+    font-size: 16px; }
   #footer .btn-footer {
     position: relative !important;
     top: -50px !important; }

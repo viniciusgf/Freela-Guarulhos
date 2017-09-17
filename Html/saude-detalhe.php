@@ -25,7 +25,9 @@ include "include/header.php";
 			</ul>
 		</nav>
 		<div class="content-wrap">
-			<section id="section-linemove-1"><p>2</p></section>
+			<section id="section-linemove-1">
+			<div class="info-plano"></div>
+			</section>
 
 			<section id="section-linemove-2">
 				<div class="info-plano">
