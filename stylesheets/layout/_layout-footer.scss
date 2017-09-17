@@ -5,7 +5,7 @@
 		p, a {
 			color: #fff;
 			margin: 0;
-			font-size: 16px;
+			font-size: 20px;
 		}
 
 		h2 {
@@ -60,21 +60,23 @@
 		top: -50px !important;
 
 		.bg-btn-radius{
-			padding: 15px 10px 10px 10px !important;
+			padding: 30px 20px;
 			width: 265px !important;
 		}
 
 		.btn-text {
-			width: 70%;
+			width: 62%;
 
 			h2 {
 				font-size: 22px;
 				line-height: 18px;
 				padding-top: 6px;
+				font-weight: bold;
 
 				span {
-					font-size: 15px;
+					font-size: 16px;
 					display: block;
+					font-weight: normal;
 				}
 			}
 		}

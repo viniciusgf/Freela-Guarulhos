@@ -99,7 +99,8 @@
       height: 70px;
       position: absolute;
       z-index: -1;
-      left: -20px
+      left: -20px;
+      top: 6px;
     }
 
     span{
@@ -169,7 +170,8 @@
         width: 90%;
         float: right;
         font-style: italic;
-        font-size: 15px;
+        font-size: 14px;
+        padding: 0px!important
       }
     }
 

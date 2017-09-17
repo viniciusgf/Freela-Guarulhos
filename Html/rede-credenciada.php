@@ -18,7 +18,16 @@ include "include/header.php";
 	<div class="container">
 		<div class="row">
 
-			<iframe src="http://facgeoipref.facilinformatica.com.br/" width="1240" height="600"></iframe>
+			<div class="title-info">
+				<h2>
+					Pesquise uma
+					<span>Rede credenciada</span>
+				</h2>
+			</div>
+
+			<div id="iframe">
+			<iframe src="http://facgeoipref.facilinformatica.com.br/" width="1240" height="600" border="0"></iframe>
+			</div>
 
 		</div>
 	</div>

@@ -64,12 +64,12 @@
 	}
 
 	.text-about{
-		padding: 80px 80px 0 ;
+		padding: 70px 0px 0 ;
 		p{
 			color: #212d4a;
-			font-size: 14px;
+			font-size: 18px;
 			&:first-child{
-				margin-bottom: 	35px;
+				margin-bottom: 	20px;
 			}		
 		}
 		a{
@@ -96,7 +96,7 @@
 	.info-content{
 		p{
 			color: #212d4a;
-			font-size: 16px;
+			font-size: 18px;
 			padding: 20px 20px
 		}
 
@@ -118,7 +118,7 @@
 				text-align: center;
 				p{
 					padding: 0!important;
-					font-size: 13px;
+					font-size: 14px;
 					color: #212d4a;
 				}
 			}
@@ -160,7 +160,7 @@
 					}
 					a {
 						color:#212d4a;
-						font-size: 13px;
+						font-size: 15px;
 					}
 				}
 			}
@@ -208,21 +208,22 @@
 
 	.list-news {
 		ul {
-			margin-top: 95px;
+			margin-top: 30	px;
 
 			li {
-				height: 79px;
-				a {
-					color: #212d4a;
+				/*height: 79px;*/
 					border-bottom: 1px solid #edf4f4;
 					border-left: 8px solid #fff;
 					padding: 30px;
-					height: 30px;
-					@include transition(all 0.3s);	
-
 					&:hover {
 						border-left: 8px solid #00ffff;
 					}
+				a {
+					color: #212d4a;
+					height: 30px;
+					@include transition(all 0.3s);	
+					font-size: 16px;
+
 				}
 			}
 		}

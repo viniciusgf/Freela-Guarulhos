@@ -61,23 +61,23 @@
 				font-size: 14px;
 				padding: 20px 12px;
 				background: #fff;
+				@include transition(all 0.3s);
+
 
 				&:hover {
-					text-decoration:underline;
+					text-decoration:none;
+					background: #212d4a!important;
+					color: #fff;
 				}
 			}
 
 		}
-		.first{
+		/*.first{
 			a{
 				padding: 20px 12px 20px 0;
 			}
 		}
-
-		
-
-
-
+		*/
 	}
 
 	.dropdown-content {

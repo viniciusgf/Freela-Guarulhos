@@ -326,7 +326,13 @@ a {
       #header .top-label .busca .align-busca {
         width: 80%; }
   #header .nav-menu {
-    background: #fff; }
+    background: #fff;
+    /*.first{
+    	a{
+    		padding: 20px 12px 20px 0;
+    	}
+    }
+    */ }
     #header .nav-menu .bg-menu-alt a {
       color: #009fe3;
       background: #f5f8fa;
@@ -344,11 +350,14 @@ a {
         color: #212d4a;
         font-size: 14px;
         padding: 20px 12px;
-        background: #fff; }
+        background: #fff;
+        -webkit-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        -moz-webkit-transition: all 0.3s; }
         #header .nav-menu li a:hover {
-          text-decoration: underline; }
-    #header .nav-menu .first a {
-      padding: 20px 12px 20px 0; }
+          text-decoration: none;
+          background: #212d4a !important;
+          color: #fff; }
   #header .dropdown-content {
     display: none;
     position: absolute;
@@ -411,7 +420,7 @@ a {
   #footer .text-footer p, #footer .text-footer a {
     color: #fff;
     margin: 0;
-    font-size: 16px; }
+    font-size: 20px; }
   #footer .text-footer h2 {
     color: #FFF;
     font-size: 16px;
@@ -439,17 +448,19 @@ a {
     position: relative !important;
     top: -50px !important; }
     #footer .btn-footer .bg-btn-radius {
-      padding: 15px 10px 10px 10px !important;
+      padding: 30px 20px;
       width: 265px !important; }
     #footer .btn-footer .btn-text {
-      width: 70%; }
+      width: 62%; }
       #footer .btn-footer .btn-text h2 {
         font-size: 22px;
         line-height: 18px;
-        padding-top: 6px; }
+        padding-top: 6px;
+        font-weight: bold; }
         #footer .btn-footer .btn-text h2 span {
-          font-size: 15px;
-          display: block; }
+          font-size: 16px;
+          display: block;
+          font-weight: normal; }
   #footer .copyright {
     color: #FFF;
     border-top: 1px solid #253353;
@@ -471,7 +482,8 @@ a {
     width: 25px;
     height: 25px;
     background-position: -6px -6px;
-    position: relative; }
+    position: relative;
+    top: 10px; }
   .icon-saude {
     width: 61px;
     height: 49px;
@@ -675,7 +687,8 @@ a {
     height: 70px;
     position: absolute;
     z-index: -1;
-    left: -20px; }
+    left: -20px;
+    top: 6px; }
   .title-info h2 span {
     display: block;
     color: #212d4a;
@@ -727,7 +740,8 @@ a {
     width: 90%;
     float: right;
     font-style: italic;
-    font-size: 15px; }
+    font-size: 14px;
+    padding: 0px !important; }
 
 .border-bottom-blue {
   border-bottom: 1px solid #f6f6f6; }
@@ -780,12 +794,12 @@ a {
     top: 165px;
     left: 70px; }
 #about .text-about {
-  padding: 80px 80px 0; }
+  padding: 70px 0px 0; }
   #about .text-about p {
     color: #212d4a;
-    font-size: 14px; }
+    font-size: 18px; }
     #about .text-about p:first-child {
-      margin-bottom: 35px; }
+      margin-bottom: 20px; }
   #about .text-about a {
     color: #009fe3;
     float: right;
@@ -805,7 +819,7 @@ a {
   background-repeat: no-repeat; }
 #infos .info-content p {
   color: #212d4a;
-  font-size: 16px;
+  font-size: 18px;
   padding: 20px 20px; }
 #infos .info-content .downloads {
   padding: 20px 20px; }
@@ -821,7 +835,7 @@ a {
     text-align: center; }
     #infos .info-content .downloads .date p {
       padding: 0 !important;
-      font-size: 13px;
+      font-size: 14px;
       color: #212d4a; }
   #infos .info-content .downloads ul {
     height: 172px;
@@ -847,7 +861,7 @@ a {
       border-bottom: none; }
     #infos .info-content .eventos ul li a {
       color: #212d4a;
-      font-size: 13px; }
+      font-size: 15px; }
 
 #banner {
   margin: 30px 0; }
@@ -877,20 +891,21 @@ a {
       font-size: 18px;
       color: #212d4a; }
   #news .list-news ul {
-    margin-top: 95px; }
+    margin-top: 30	px; }
     #news .list-news ul li {
-      height: 79px; }
+      /*height: 79px;*/
+      border-bottom: 1px solid #edf4f4;
+      border-left: 8px solid #fff;
+      padding: 30px; }
+      #news .list-news ul li:hover {
+        border-left: 8px solid #00ffff; }
       #news .list-news ul li a {
         color: #212d4a;
-        border-bottom: 1px solid #edf4f4;
-        border-left: 8px solid #fff;
-        padding: 30px;
         height: 30px;
         -webkit-transition: all 0.3s;
         -webkit-transition: all 0.3s;
-        -moz-webkit-transition: all 0.3s; }
-        #news .list-news ul li a:hover {
-          border-left: 8px solid #00ffff; }
+        -moz-webkit-transition: all 0.3s;
+        font-size: 16px; }
 
 #bg-saude-inner {
   background: url("../images/bg-saude-inner.png");
