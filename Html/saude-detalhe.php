@@ -26,7 +26,148 @@ include "include/header.php";
 		</nav>
 		<div class="content-wrap">
 			<section id="section-linemove-1">
-			<div class="info-plano"></div>
+				<div class="info-rede-credenciada"></div>
+				<div class="row">
+					<div class="desc-plano">
+						<div class="col-lg-5">
+							<div class="title-info">
+								<h2>Plano de <span>de saúde IPREF</span></h2>
+							</div>
+
+							<div class="text">
+								<p>
+									Phasellus elementum leo vitae vestibulum ullamcorper.
+									nisl magna, aliquam venenatis est vitae, consectetur
+									mauris. Curabitur euismod dui posuere, vulputate nisl ac, 
+									venenatis leo. Nullam augue dolor, sagittis vel urna quis,
+									mattis tortor.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mt-230">
+					<div class="col-lg-3 links-plano">
+						<a href="">
+							<div class="box">
+								<i class="icon icon-dots"></i>
+								<i class="icon icon-saude"></i>
+								<div class="title-box">
+									<p>
+										Sobre o
+										<span>plano de sáude</span>
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-lg-3 links-plano">
+						<a href="">
+							<div class="box">
+								<i class="icon icon-dots"></i>
+								<i class="icon icon-saude"></i>
+								<div class="title-box">
+									<p>
+										Quem pode
+										<span>aderir</span>
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-lg-3 links-plano">
+						<a href="">
+							<div class="box">
+								<i class="icon icon-dots"></i>
+								<i class="icon icon-saude"></i>
+								<div class="title-box">
+									<p>
+										Padrão de
+										<span>acomodação</span>
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-lg-3 links-plano">
+						<a href="">
+							<div class="box">
+								<i class="icon icon-dots"></i>
+								<i class="icon icon-saude"></i>
+								<div class="title-box">
+									<p>
+										Procedimentos
+										<span>cobertos</span>
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-lg-3 links-plano">
+						<a href="">
+							<div class="box">
+								<i class="icon icon-dots"></i>
+								<i class="icon icon-saude"></i>
+								<div class="title-box">
+									<p>
+										Como é o custeio
+										<span>do plano</span>
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-lg-3 links-plano">
+						<a href="">
+							<div class="box">
+								<i class="icon icon-dots"></i>
+								<i class="icon icon-saude"></i>
+								<div class="title-box">
+									<p>
+										Coparticipação
+										<span>e cotas de rateio</span>
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-lg-3 links-plano">
+						<a href="">
+							<div class="box">
+								<i class="icon icon-dots"></i>
+								<i class="icon icon-saude"></i>
+								<div class="title-box">
+									<p>
+										Prestação
+										<span>de contas</span>
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-lg-3 links-plano">
+						<a href="">
+							<div class="box">
+								<i class="icon icon-dots"></i>
+								<i class="icon icon-saude"></i>
+								<div class="title-box">
+									<p>
+										formas
+										<span>de pagamento</span>
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
 			</section>
 
 			<section id="section-linemove-2">

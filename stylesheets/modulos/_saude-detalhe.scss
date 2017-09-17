@@ -14,26 +14,128 @@
 			box-shadow: 2px 0px 15px -1px rgba(171,171,171,0.2);
 			padding: 30px 20px;
 
-		p {
-			color: #212d4a;
-			font-size: 14px;
-			font-weight: normal;
-			padding-left: 20px;
-			line-height: 1.2;
+			p {
+				color: #212d4a;
+				font-size: 14px;
+				font-weight: normal;
+				padding-left: 20px;
+				line-height: 1.2;
+
+			}
+
+			.line{
+				line-height: 2;
+			}
+
+			.alt{
+				font-weight: bold;
+				font-style: italic;
+			}
+			i {
+				padding-left: 20px;
+			}
+		}
+	}
+
+	.info-rede-credenciada {
+		background: url('../images/bg-rede-credenciada.png');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 100%;
+		width: 965px;
+		height: 713px;
+		position: absolute;
+		z-index: -1;
+		right: 0;
+	}
+
+	#section-linemove-1{
+		height: 800px;
+
+	}
+
+	.desc-plano {
+		&:before{
+			content:"";
+			background: url('../images/bg-grey-left.png');
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: 100%;
+			width: 870px;
+			height: 375px;
+			z-index: -1;
+			left:  0;
+			position: absolute;
 
 		}
 
-		.line{
-			line-height: 2;
+		.title-info {
+			padding-top: 30px;	
 		}
 
-		.alt{
-			font-weight: bold;
-			font-style: italic;
+		.text {
+			margin: 60px 0;
+			p {
+				padding-left: 20px;
+				font-size: 18px;
+				color: #212d4a;
+			}
 		}
-		i {
-			padding-left: 20px;
-		}
+	}
+
+	.links-plano {
+		margin-bottom: 20px;
+
+		.box {
+			background: #ffffff;
+			-webkit-box-shadow: 2px 0px 15px -1px rgba(171,171,171,0.2);
+			-moz-box-shadow: 2px 0px 15px -1px rgba(171,171,171,0.2);
+			box-shadow: 2px 0px 15px -1px rgba(171,171,171,0.2);
+			padding: 60px 10px 45px 25px;
+			@include transition(all 0.3s);
+
+			&:hover {
+				background: #0000b3;
+			}
+
+			&:hover .title-box p{
+				color: #fff!important;
+			}
+
+			&:hover .title-box p span{
+				color: #fff!important;
+			}
+
+			.title-box {
+				display: inline-block;
+
+				p {
+					text-transform: uppercase;
+					font-size: 18px;
+					color: #212d4a;
+					line-height: 1;
+
+					span {
+						font-weight: bold;
+						color: #4eb7e9;
+						display: block;
+						font-size: 18px;
+					}
+
+					&::after {
+						margin-top:10px;
+						content: "";
+						background: #01ffff;
+						width: 88px;
+						height: 4px;
+						position: absolute;
+						left: 107px;
+						display: block;
+						top: 115px;
+					}
+				}
+			}
 		}
 	}
 }
+
