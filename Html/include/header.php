@@ -18,19 +18,19 @@
 	<header id="header">
 		<div class="container">
 			<div class="row top-label">
-				<div class="col-lg-3 logo">
+				<div class="col-lg-3 col-sm-3 logo">
 					<a href="index.php">
 						<img class="img-responsive" src="../images/logo.png" alt="IPREF Guarulhos" title="IPREF Guarulhos" />
 					</a>
 				</div>
-				<div class="col-lg-3 busca">
+				<div class="col-lg-3 col-sm-3 busca">
 					<div class="center-block align-busca">
 						<i class="icon icon-busca" aria-hidden="true"></i>
 						<input class="form-control" type="search" value="" placeholder="o que você procura?" id="busca-header">
 					</div>
 				</div>
 
-				<div class="col-lg-3 btn-header">
+				<div class="col-lg-3 col-sm-3 btn-header">
 					<a href="" class="bg-btn-radius btn-blue-light">
 						<i class="icon icon-saude"></i>
 						<div class="btn-text">
@@ -39,7 +39,7 @@
 						</div>
 					</a>
 				</div>
-				<div class="col-lg-3 btn-header">
+				<div class="col-lg-3 col-sm-3 btn-header">
 					<a href="" class="bg-btn-radius btn-blue-dark">
 						<i class="icon icon-previdencia"></i>
 						<div class="btn-text">

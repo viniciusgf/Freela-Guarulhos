@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="bg-footer">
 			<div class="row">
-				<div class="col-lg-9 text-footer text-right">
+				<div class="col-lg-9 col-sm-9 text-footer text-right">
 					<p>
 						<a href="tel:1124616363">Tel. <b>(11)2461-6363</b> <i class="icon icon-tel-footer"></i></a>
 					</p>
@@ -10,7 +10,7 @@
 						<a href="#">Horário de atendimento: das <b>8h às 16:30</b> </a><i class="icon icon-schedule-footer"></i>
 					</p>
 				</div>
-				<div class="col-lg-3 btn-footer">
+				<div class="col-lg-3 col-sm-3 btn-footer">
 					<a href="" class="bg-btn-radius btn-blue-light ">
 						<i class="icon icon-webmail-footer"></i>
 						<div class="btn-text">
@@ -22,7 +22,7 @@
 			</div> 
 
 			<div class="row">
-				<div class="col-lg-5 title-bar map-site">
+				<div class="col-lg-5 col-sm-5 title-bar map-site">
 					<h2>
 						PRESTAÇÃO <span>DE SERVIÇOS</span>
 					</h2>
@@ -73,7 +73,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-lg-3 title-bar map-site">
+				<div class="col-lg-3 col-sm-3 title-bar map-site">
 					<h2>
 						INSTITUCIONAL
 					</h2>
@@ -102,7 +102,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-lg-4 text-footer map-site address-footer">
+				<div class="col-lg-4 col-sm-4 text-footer map-site address-footer">
 					<h2>
 						IPREF - Instituto de Previdência dos Funcionários
 						Públicos Municipais de Guarulhos.

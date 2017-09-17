@@ -44,7 +44,7 @@ include "include/header.php";
 <section id="about">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6">
+			<div class="col-lg-6 col-sm-6">
 				<div class="bg-title">
 					<h2>
 						Sobre o <br/>
@@ -52,7 +52,7 @@ include "include/header.php";
 					</h2>
 				</div>
 			</div>
-			<div class="col-lg-6 text-about">
+			<div class="col-lg-6 col-sm-6 text-about">
 				<p>
 					Criado em 1983, o <b>IPREF - Instituto de Previdência dos Funcionários 
 					Públicos Municipais</b>– é uma Autarquia Municipal, com autonomia 
@@ -72,7 +72,7 @@ include "include/header.php";
 <section id="infos">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-4 updates info-content">
+			<div class="col-lg-4 col-sm-4 updates info-content">
 				<div class="title-info">
 					<h2>Últimas <span>atualizações</span></h2>
 				</div>
@@ -157,7 +157,7 @@ include "include/header.php";
 				</div>
 				
 			</div>
-			<div class="col-lg-3 info-content">
+			<div class="col-lg-3 col-sm-3 info-content">
 				<div class="title-info">
 					<h2>Próximos <span>eventos</span></h2>
 				</div>
@@ -193,7 +193,7 @@ include "include/header.php";
 			</div>
 		</div>
 
-		<div class="col-lg-3 col-lg-offset-1 info-content">
+		<div class="col-lg-3 col-sm-4 col-lg-offset-1 info-content">
 			<div class="plano-saude">
 				<img class="img-responsive" src="../images/img-saude.png" />
 				<h2>Planos de saúde ipref</h2>
@@ -241,7 +241,7 @@ include "include/header.php";
 <section id="news">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 destaque no-padding">
+			<div class="col-lg-6 col-sm-6 destaque no-padding">
 				<article>
 					<a href="">
 						<img class="img-responsive" src="../images/img-news.png" />
@@ -254,7 +254,7 @@ include "include/header.php";
 					</a>
 				</article>
 			</div>
-			<div class="col-lg-6 list-news no-padding">
+			<div class="col-lg-6 col-sm-6 list-news no-padding">
 				<ul>
 					<li>
 						<a href="">

@@ -1,4 +1,130 @@
-@media  screen and (max-width: 1280px){
-	
+@media  screen and (max-width: 1024px){
+	.container {
+		width: 970px!important;
+	}
+	.btn-header {
+		.bg-btn-radius {
+			padding: 15px 5px 10px 5px;
+
+			.btn-text {
+				width: 68%;
+			}
+		}
+	}
+
+	#header {
+		.nav-menu {
+			.bg-menu-alt {
+				a {
+					padding: 20px 7px !important;
+				}
+			}
+			li {
+				a {
+					font-size: 12px;
+					padding: 20px 6px;
+				}
+			}
+		}
+		.top-label {
+			.busca { 
+				.form-control {
+					width: 85%!important
+				}
+			}
+		}
+	}
+
+	#about {
+		.bg-title {
+			top: -63px;
+			left: 0;
+		}
+		.text-about {
+			padding: 70px 20px;
+		}
+	}
+
+	#infos {
+		.info-content {
+			p {
+				font-size: 16px;
+			}
+
+			.downloads {
+				.pdf {
+					width: 59%;
+				}
+			}
+		}
+	}
+}
+
+@media  screen and (max-width: 768px) {
+	.container {
+		width: 750px!important;
+	}
+
+	.col-sm-3.logo, 
+	.col-sm-3.busca {
+		width: 100%;
+
+		img {
+			margin: auto;
+		}
+	}
+
+	.col-sm-3.btn-header,
+	.col-sm-3.btn-saude {
+		width: 50%;
+	}
+
+	.col-sm-3.busca {
+		.align-busca {
+			width: 90%;
+			border-top: 1px solid rgba(0, 159, 227, 0.22);
+			padding: 3px;
+		}
+		input {
+			width: 95%;
+		}
+	}
+
+	.btn-header, .btn-footer{
+		.bg-btn-radius { 
+			width: 100%;
+			/*border-bottom-left-radius: 0;*/
+			/*border-top-right-radius: 0;*/
+			margin: auto;
+			float: none;
+			display: block;
+			padding: 20px 25px 20px 25px;
+
+			.btn-text {
+				width: 75%;
+			}
+		}
+	}
+
+	#about {
+		.bg-title {
+			top: -2px;
+			left: 0;
+			background-size: 72%;
+			background-repeat: no-repeat;
+
+			h2 {
+				top: 103px;
+				left: 35px;
+				font-size: 30px;
+			}
+		}
+		.text-about {
+			padding: 40px 10px;
+			p {
+				font-size: 15px;
+			}
+		}
+	}
 }
 
