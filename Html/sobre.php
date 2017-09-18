@@ -17,7 +17,7 @@ include "include/header.php";
 <section id="text-sobre">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6">
+			<div class="col-lg-6 col-xs-12">
 				<div class="title-info">
 					<h2>Sobre o <span>IPREF</span></h2>
 				</div>
@@ -47,8 +47,8 @@ include "include/header.php";
 					</p>
 				</div>
 			</div>
-			<div class="col-lg-6">
-				<img src="../images/img-sobre.png" class="center-block" />
+			<div class="col-lg-6 col-sm-12">
+				<img src="../images/img-sobre.png" class="center-block img-responsive" />
 			</div>
 		</div>
 
