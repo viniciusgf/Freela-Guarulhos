@@ -28,7 +28,7 @@
 		p {
 			font-size: 18px;
 			margin-right: 105px;
-			margin-top: 30px;
+			margin: 30px 105px 30px 0px;
 		}
 
 		form {
@@ -58,11 +58,10 @@
 				width: 50%;
 				
 			}
-			.form-field {
-				margin:30px 0;
-				label {
-					font-size: 18px;
-				}
+			label {
+				font-size: 18px;
+				display: block!important;
+				margin-bottom: 10px!important;
 			}
 
 			.btn-submit {
@@ -157,4 +156,17 @@
 
 	.contact-map {
 		margin-left: 50px !important;
+
+		.map-border {
+			border-top-right-radius: 100px;
+			border-bottom-left-radius: 100px;
+			width: 100%;
+			height: 435px;
+			overflow: hidden;
+
+			#map{
+				width: 100%;
+				height: 435px;
+			}
+		}
 	}

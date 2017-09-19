@@ -5,7 +5,7 @@ include "include/header.php";
 
 <!-- CONTEUDO -->
 
-<section id="breadcrumb">
+<section id="breadcrumb" class="bg-bc-blue">
 	<div class="container">
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="#">Página inicial</a></li>
@@ -16,7 +16,7 @@ include "include/header.php";
 
 <section id="text-sobre">
 	<div class="container">
-		<div class="row">
+		<div class="row mt-100">
 			<div class="col-lg-6 col-xs-12">
 				<div class="title-info">
 					<h2>Sobre o <span>IPREF</span></h2>
@@ -90,7 +90,7 @@ include "include/header.php";
 		</div>
 
 		<div class="row">
-			<div class="col-lg-7 estrutura">
+			<div class="col-lg-12 estrutura">
 				<h2>ESTRUTURA</h2>
 				<p>
 					Presidente: Eduardo Kamei Yukisaki - <a href="mailto:presidencia@iprefguarulhos.sp.gov.br">presidencia@iprefguarulhos.sp.gov.br</a>

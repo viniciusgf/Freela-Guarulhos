@@ -658,6 +658,9 @@ a {
 .mt-230 {
   margin-top: 230px; }
 
+.mt-100 {
+  margin-top: 100px; }
+
 .title-bar {
   padding-left: 40px; }
   .title-bar h2 {
@@ -715,8 +718,26 @@ a {
     top: 2px;
     left: 3px; }
 
-#breadcrumb .breadcrumb {
-  background-color: #fff; }
+#breadcrumb {
+  margin-top: 10px; }
+  #breadcrumb .breadcrumb {
+    background: none !important;
+    margin: 0;
+    padding: 20px 0; }
+    #breadcrumb .breadcrumb > li + li:before {
+      content: ">"; }
+    #breadcrumb .breadcrumb li {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 11px; }
+      #breadcrumb .breadcrumb li a {
+        color: #009fe3; }
+
+.bg-bc-blue {
+  background: #212d4a; }
+
+.bg-bc-white .breadcrumb li {
+  color: #93a9b8 !important; }
 
 .plano-saude {
   background: #fff;
@@ -1039,21 +1060,29 @@ a {
   height: 375px;
   z-index: -1;
   left: -4%;
+  top: 330px;
   position: absolute; }
+#text-sobre .title-info h2 {
+  font-weight: 400; }
+  #text-sobre .title-info h2 span {
+    font-weight: bold; }
+  #text-sobre .title-info h2:before {
+    background: #eaf1f6; }
 #text-sobre .text {
   padding-left: 20px;
-  padding-right: 150px;
+  padding-right: 60px;
   margin-top: 40px; }
   #text-sobre .text p {
     color: #212d4a;
     margin: 35px 0;
-    line-height: 22px; }
+    line-height: 22px;
+    font-size: 18px; }
 #text-sobre .box-shadow {
   margin: 50px 0; }
   #text-sobre .box-shadow .box {
     background: #fff;
     width: 90%;
-    height: 190px;
+    height: 250px;
     padding: 10px 0;
     -webkit-box-shadow: 2px 0px 15px -1px rgba(171, 171, 171, 0.2);
     -moz-box-shadow: 2px 0px 15px -1px rgba(171, 171, 171, 0.2);
@@ -1067,20 +1096,24 @@ a {
   #text-sobre .box-shadow .visao {
     font-style: italic;
     color: #212d4a;
-    width: 40%;
-    margin-left: 40px; }
+    width: 45%;
+    margin-left: 40px;
+    font-size: 18px; }
   #text-sobre .box-shadow .missao {
     font-style: italic;
     padding: 0 40px;
-    color: #212d4a; }
+    color: #212d4a;
+    font-size: 18px; }
 #text-sobre .estrutura {
   margin-top: 50px; }
   #text-sobre .estrutura h2 {
     color: #212d4a;
     font-weight: bold;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    font-size: 24px; }
   #text-sobre .estrutura p {
-    color: #212d4a; }
+    color: #212d4a;
+    font-size: 16px; }
     #text-sobre .estrutura p a {
       color: #009fe3; }
 
@@ -1089,6 +1122,20 @@ a {
   font-weight: normal;
   font-size: 15px;
   opacity: 0.5; }
+#info-tab .info-plano .title-info {
+  padding-top: 30px; }
+  #info-tab .info-plano .title-info h2 {
+    color: #009fe3;
+    font-size: 24px;
+    font-weight: 400; }
+    #info-tab .info-plano .title-info h2:before {
+      background: #f5f8fa !important;
+      top: -6px; }
+    #info-tab .info-plano .title-info h2 span {
+      color: #212d4a !important;
+      font-weight: bold;
+      font-size: 24px;
+      opacity: 1; }
 #info-tab .info-plano .text {
   margin: 50px 0;
   -webkit-box-shadow: 2px 0px 15px -1px rgba(171, 171, 171, 0.2);
@@ -1097,7 +1144,7 @@ a {
   padding: 30px 20px; }
   #info-tab .info-plano .text p {
     color: #212d4a;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: normal;
     padding-left: 20px;
     line-height: 1.2; }
@@ -1133,6 +1180,18 @@ a {
   position: absolute; }
 #info-tab .desc-plano .title-info {
   padding-top: 30px; }
+  #info-tab .desc-plano .title-info h2 {
+    color: #009fe3;
+    font-size: 24px;
+    font-weight: 400; }
+    #info-tab .desc-plano .title-info h2:before {
+      background: #f5f8fa !important;
+      top: -6px; }
+    #info-tab .desc-plano .title-info h2 span {
+      color: #212d4a !important;
+      font-weight: bold;
+      font-size: 24px;
+      opacity: 1; }
 #info-tab .desc-plano .text {
   margin: 60px 0; }
   #info-tab .desc-plano .text p {
@@ -1201,7 +1260,7 @@ a {
   .contact-form p {
     font-size: 18px;
     margin-right: 105px;
-    margin-top: 30px; }
+    margin: 30px 105px 30px 0px; }
   .contact-form form {
     margin: 0;
     padding: 0; }
@@ -1219,10 +1278,10 @@ a {
       width: 100%; }
     .contact-form form .short-input {
       width: 50%; }
-    .contact-form form .form-field {
-      margin: 30px 0; }
-      .contact-form form .form-field label {
-        font-size: 18px; }
+    .contact-form form label {
+      font-size: 18px;
+      display: block !important;
+      margin-bottom: 10px !important; }
     .contact-form form .btn-submit {
       background-color: #009fe3;
       border: none;
@@ -1283,6 +1342,15 @@ a {
 
 .contact-map {
   margin-left: 50px !important; }
+  .contact-map .map-border {
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    width: 100%;
+    height: 435px;
+    overflow: hidden; }
+    .contact-map .map-border #map {
+      width: 100%;
+      height: 435px; }
 
 @media screen and (max-width: 1024px) {
   .container {

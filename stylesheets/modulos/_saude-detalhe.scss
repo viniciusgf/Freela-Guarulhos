@@ -7,6 +7,29 @@
 	}
 
 	.info-plano {
+
+		.title-info {
+			padding-top: 30px;	
+
+			h2 {
+				color: #009fe3;
+				font-size: 24px;
+				font-weight: 400;
+
+				&:before {
+					background: #f5f8fa!important;
+					top: -6px;
+				}
+
+				span {
+					color: #212d4a!important;
+					font-weight: bold;
+					font-size: 24px;
+					opacity: 1;
+				}
+			}
+		}
+
 		.text{
 			margin: 50px 0;
 			-webkit-box-shadow: 2px 0px 15px -1px rgba(171,171,171,0.2);
@@ -16,7 +39,7 @@
 
 			p {
 				color: #212d4a;
-				font-size: 14px;
+				font-size: 16px;
 				font-weight: normal;
 				padding-left: 20px;
 				line-height: 1.2;
@@ -71,6 +94,24 @@
 
 		.title-info {
 			padding-top: 30px;	
+
+			h2 {
+				color: #009fe3;
+				font-size: 24px;
+				font-weight: 400;
+
+				&:before {
+					background: #f5f8fa!important;
+					top: -6px;
+				}
+
+				span {
+					color: #212d4a!important;
+					font-weight: bold;
+					font-size: 24px;
+					opacity: 1;
+				}
+			}
 		}
 
 		.text {

@@ -4,7 +4,7 @@ include "include/header.php";
 ?>
 
 <!-- CONTEUDO -->
-<section id="breadcrumb">
+<section id="breadcrumb" class="bg-bc-white">
 	<div class="container">
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="#">Página inicial</a></li>

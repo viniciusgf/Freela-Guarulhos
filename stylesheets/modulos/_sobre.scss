@@ -9,18 +9,34 @@
 		height: 375px;
 		z-index: -1;
 		left:  -4%;
+		top: 330px;
 		position: absolute;
+	}
+
+	.title-info {
+		h2 {
+			font-weight: 400;
+
+			span {
+				font-weight: bold;
+			}
+
+			&:before {
+				background: #eaf1f6;
+			}
+		}
 	}
 
 	.text {
 		padding-left: 20px;
-		padding-right: 150px;
+		padding-right: 60px;
 		margin-top: 40px;
 
 		p {
 			color: #212d4a;
 			margin: 35px 0;
-			line-height: 22px
+			line-height: 22px;
+			font-size: 18px;
 		}
 	}
 
@@ -30,7 +46,7 @@
 		.box{
 			background: #fff;
 			width: 90%;
-			height: 190px;
+			height: 250px;
 			padding: 10px 0;
 			-webkit-box-shadow: 2px 0px 15px -1px rgba(171,171,171,0.2);
 			-moz-box-shadow: 2px 0px 15px -1px rgba(171,171,171,0.2);
@@ -49,13 +65,15 @@
 		.visao {
 			font-style: italic;
 			color: #212d4a;
-			width: 40%;
+			width: 45%;
 			margin-left: 40px;
+			font-size: 18px;
 		}
 		.missao {
 			font-style: italic;
 			padding: 0 40px;
 			color: #212d4a;
+			font-size: 18px;
 		}
 	}
 
@@ -65,11 +83,13 @@
 		h2 {
 			color: #212d4a;
 			font-weight: bold;
-			margin-bottom: 30px
+			margin-bottom: 30px;
+			font-size: 24px;
 		}
 
 		p {
 			color: #212d4a;
+			font-size: 16px;
 
 			a {
 				color: #009fe3;	
