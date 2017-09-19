@@ -25,9 +25,7 @@ include "include/header.php";
 				</h2>
 			</div>
 
-			<div id="iframe">
-			<iframe src="http://facgeoipref.facilinformatica.com.br/" width="1240" height="600" border="0"></iframe>
-			</div>
+			<iframe id="iframe" src="http://facgeoipref.facilinformatica.com.br/" width="1240" height="800" border="0"></iframe>
 
 		</div>
 	</div>

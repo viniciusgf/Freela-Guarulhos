@@ -26,21 +26,20 @@ include "include/header.php";
 		<div class="row">
 			<div class="col-lg-4 col-lg-offset-1 info">
 				<div class="title-info">
-					<h2>Redes <span>Credenciadas</span></h2>
+					<h2>Rede <span>Credenciada</span></h2>
 				</div>
 
 				<div class="text">
 					<p>
-						Lorem ipsum dolor sit amet, consectetur 
-						adipiscing elit. Nulla sollicitudin eros 
-						lectus, sed euismod libero aliquet vitae. 
-						Nullam et tellus bibendum, hendrerit 
-						sapien eu, venenatis dui.
+						Veja a lista completa de credenciados  
+						aos planos de Saúde IPREF, 
+						filtrando por localização, especialidade, 
+						nome do prestador, etc.
 					</p>
 				</div>
 			</div>
 			<div class="col-lg-4 btn-footer">
-				<a href="" class="bg-btn-radius btn-blue-light ">
+				<a href="rede-credenciada.php" class="bg-btn-radius btn-blue-light ">
 					<i class="icon icon-map-saude"></i>
 					<div class="btn-text">
 						<p>
@@ -67,7 +66,7 @@ include "include/header.php";
 						<img class="img-responsive" src="../images/planos-1.png" />
 						<h2>Planos de saúde ipref</h2>
 
-						<ul class="clearfix">
+						<ul class="clearfix plano-info">
 							<li>
 								<p>
 									Lorem <b>ipsum dolor</b> sit 
@@ -98,7 +97,7 @@ include "include/header.php";
 				</div>
 
 				<div class="col-lg-4">
-					<div class="plano-saude">
+					<div class="plano-saude plano-info">
 						<img class="img-responsive" src="../images/planos-2.png" />
 						<h2>Planos de saúde ipref</h2>
 
@@ -133,7 +132,7 @@ include "include/header.php";
 				</div>
 
 				<div class="col-lg-4">
-					<div class="plano-saude">
+					<div class="plano-saude plano-info">
 						<img class="img-responsive" src="../images/planos-3.png" />
 						<h2>Planos de saúde ipref</h2>
 

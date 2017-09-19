@@ -1,4 +1,6 @@
 #header {
+	position: relative;
+	z-index: 99999;
 	.btn-header {
 		.bg-btn-radius {
 			.btn-text {
@@ -44,7 +46,7 @@
 	}
 
 	/*menu-navigation*/
-	.nav-menu {
+		.nav-menu {
 		background: #fff;
 
 		.bg-menu-alt{
@@ -53,7 +55,7 @@
 				color: #009fe3;
 				background: #f5f8fa;
 				@include transition(all 0.3s);
-				padding: 20px 16px!important;
+				padding: 20px 13px!important;
 
 				&:hover{
 					background: #009fe3!important;
@@ -89,6 +91,7 @@
 		}
 		*/
 	}
+
 
 	.dropdown-content {
 		display: none;
@@ -160,10 +163,20 @@
 
 	}
 
-	.dropdown:hover .dropdown-content {
-		@include transition(all 0.3s);
-		display: table;
+	#menu-dropdown:hover {
+		& + .overlay{
+			display: block;
+		}
 	}
+
+	.dropdown:hover {
+
+		.dropdown-content {
+			@include transition(all 0.3s);
+			display: table;
+		}
+	}
+
 
 	/*dropdown button "O IPREF"*/
 	#menu-dropdown {

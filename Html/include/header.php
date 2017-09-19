@@ -7,6 +7,7 @@
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
 
 	<!-- tab -->
 	<link rel="stylesheet" type="text/css" href="../css/tabs.css" />
@@ -14,7 +15,7 @@
 	<script src="../js/modernizr.custom.js"></script>
 </head>
 <body>
-	<div class="overlay"></div>
+		<div class="overlay"></div>
 	<header id="header">
 		<div class="container">
 			<div class="row top-label">
@@ -35,7 +36,7 @@
 						<i class="icon icon-saude"></i>
 						<div class="btn-text">
 							<h2>SAÚDE</h2>
-							<p>Lorem ipsum dolor sit amet, peasdasdr asmassa jueo. </p>
+							<p>Benefícios dos planos de saúde do IPREF.</p>
 						</div>
 					</a>
 				</div>
@@ -52,14 +53,17 @@
 			<!-- menu nav -->
 			<nav>
 				<ul class="nav-menu">
-					<li class="first"><a href="index.php">HOME</a></li>
+					<li class="first"><a href="/">HOME</a></li>
 					<li class="dropdown">
 						<a id="menu-dropdown" href="sobre.php">
 							O IPREF
 							<i class="fa fa-chevron-down" aria-hidden="true"></i>
+
 						</a>
+
 						<div class="dropdown-content">
 							<div class="row">
+
 								<div class="col-lg-2 bg-blue-light drop title-bar">
 									<h2>Credenciados</h2>
 
@@ -98,7 +102,7 @@
 					<li><a href="saude.php">SAÚDE</a></li>
 					<li><a>NOTÍCIAS</a></li>
 					<li><a>FAQ</a></li>
-					<li><a>TRANSPARÊNCIA</a></li>
+					<li><a href="http://portaltransparenciaipref.guarulhos.sp.gov.br/" target="_blank">TRANSPARÊNCIA</a></li>
 					<li><a>LINKS</a></li>
 					<li>
 						<a href="contato.php">
@@ -106,19 +110,19 @@
 						</a>
 					</li>
 					<li class="bg-menu-alt">
-						<a>
+						<a href="http://holerite.iprefguarulhos.sp.gov.br" target="_blank">
 							<i class="icon icon-holerite"></i>
 							HOLERITES
 						</a>
 					</li>
 					<li class="bg-menu-alt">
-						<a>
+						<a href="http://novowebplanipref.facilinformatica.com.br/GuiasTISS/Logon" target="_blank">
 							<i class="icon icon-pweb"></i>
 							PORTAL WEB	
 						</a>
 					</li>
 					<li class="bg-menu-alt last">
-						<a>
+						<a href="rede-credenciada.php">
 							<i class="icon icon-rcredenciada"></i>
 							REDE CREDENCIADA
 						</a>
@@ -135,12 +139,3 @@
 
 	</header>
 
-	<!-- <script type="text/javascript">
-
-	$(".dropdown").mouseover(function(){
-		// alert("oi");
-		$('.overlay').css('display', 'block');
-   
-});
-	
-	</script> -->

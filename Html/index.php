@@ -198,7 +198,7 @@ include "include/header.php";
 				<img class="img-responsive" src="../images/img-saude.png" />
 				<h2>Planos de saúde ipref</h2>
 
-				<ul class="clearfix">
+				<ul class="clearfix plano-info">
 					<li>
 						<p>
 							Lorem <b>ipsum dolor</b> sit 

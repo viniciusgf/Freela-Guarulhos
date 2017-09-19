@@ -71,6 +71,27 @@
 	margin-top: 200px;
 	margin-bottom: 100px;
 
+	.plano-info {
+			li {
+				padding-left: 50px;
+			}
+			p {
+				position: relative;
+				float: none;
+				font-size: 14px;
+
+				&:before {
+					content: "";
+					background: url('../images/check-icon.png');
+					position: absolute;
+					width: 20px;
+					height: 17px;
+					top: 4px;
+					left: -25px;
+				}
+			}
+		}
+
 	&:after{
 		content:"";
 		background: url('../images/bg-blue-right.png');

@@ -11,3 +11,13 @@
 
 	})();
 </script>
+
+<script type="text/javascript">
+
+	$(".dropdown").mouseover(function(){
+		$('.overlay').fadeIn(300);
+	}).mouseleave(function(event) {
+		$('.overlay').fadeOut(300);
+	});
+
+</script>
